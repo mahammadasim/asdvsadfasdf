@@ -50,6 +50,7 @@ Kotlin is designed to run on a Java Virtual Machine and can run side by side wit
     fun main() {
         println("Hello World!")
     }
+    ```
     
  - Execution
     - Run the below mentioned command for creating jar file with mentioned name 
@@ -58,9 +59,7 @@ Kotlin is designed to run on a Java Virtual Machine and can run side by side wit
     kotlinc hello.kt -include-runtime -d hello.jar
     ```
 
-
     - Now executing jar file with java command as mentioned below.
-
     ```bash
     java -jar hello.jar
     ```
@@ -83,20 +82,20 @@ Kotlin is designed to run on a Java Virtual Machine and can run side by side wit
 
         println("The sum of the two inputs is: $sum")
     }
-    /* 
-    Output : 
+    ```
+    **Output** 
+    ```
     Enter the inputs for addition
     10
     The input one is : 10
     100
     The input two is : 100
     The sum of the two inputs is : 110 
-    */
     ```
 
 
 ## Conditions and Loops
-- if-else
+### if-else
   - If-else statement in Kotlin is similar to other programming languages such as C, C++, Java, and C#. However, in Kotlin, it also returns a value.
   - Kotlin eliminates the need for a ternary operator.
 
@@ -124,14 +123,18 @@ Kotlin is designed to run on a Java Virtual Machine and can run side by side wit
       print("Choose b")
       b
   }
+  ```
 
-## Returns and Jumps
+<h3> Reference </h3>
+
+- [Kotlin if Expression](https://www.javatpoint.com/kotlin-if-expression)
+
 ### when
 - It is a conditional expression with multiple branches. It is same as switch statement in other languages in C, C++, Java, C#.
     - We can use when statement in 2 ways
+
         1. With Expression
-        
-            [```Try it Yourself```](http://jdoodle.com/ia/IGy)
+
             ```kotlin
             fun main() {  
                 var number = 4  
@@ -145,10 +148,11 @@ Kotlin is designed to run on a Java Virtual Machine and can run side by side wit
                 }  
                 println("You provided: $numberProvided")  
             }
-
+            ```
+            [[Try it Yourself](http://jdoodle.com/ia/IGy)]
+            
         2. Without Expression
-        
-            [```Try it Yourself```](http://jdoodle.com/ia/IGz)
+    
             ```kotlin
             fun main(){  
   
@@ -163,10 +167,17 @@ Kotlin is designed to run on a Java Virtual Machine and can run side by side wit
                 }  
               
             }
+            ```
+            [[Try it Yourself](http://jdoodle.com/ia/IGz)]
+
+            
+<h3> Reference </h3>
+
+- [Kotlin when Expression](https://www.javatpoint.com/kotlin-when-expression)
+
 ### for loop
 - Scanning the integer value by using for loop.
 
-    [```Try it Yourself```](http://jdoodle.com/ia/IGB)
     ```kotlin
     import java.util.Scanner
     fun main(){
@@ -180,9 +191,10 @@ Kotlin is designed to run on a Java Virtual Machine and can run side by side wit
            println(x);
        }
     }
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IGB)]
+    
 - Printing each element of array by iterator without using 
-
-    [```Try it Yourself```](http://jdoodle.com/ia/IGC)
 
     ```kotlin
     fun main() {  
@@ -190,19 +202,23 @@ Kotlin is designed to run on a Java Virtual Machine and can run side by side wit
         for(item in marks)  
             println(item)  
     }  
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IGC)]
+
 - Printing element using indexes 
 
-    [```Try it Yourself```](http://jdoodle.com/ia/IGD)
     ```kotlin
     fun main(args : Array<String>) {  
      
         val marks = arrayOf(80,85,60,90,70)  
         for(item in marks.indices)  
            println("marks[$item]: "+ marks[item])  
-    }  
+    }
+    ```  
+    [[Try it Yourself](http://jdoodle.com/ia/IGD)]
+
 - Different types of for loops with iterating loop in range
 
-    [```Try it Yourself```](http://jdoodle.com/ia/IGF)
     ```kotlin
     fun main() {  
   
@@ -229,25 +245,27 @@ Kotlin is designed to run on a Java Virtual Machine and can run side by side wit
         print("for (i in 5 downTo 1 step 2) print(i) = ")  
         for (i in 5 downTo 1 step 2) print(i)  
     }  
-    
-    /*
-    
-    Output:
-    
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IGF)]
+
+    **Output**
+    ```
     for (i in 1..5) print(i) = 12345
     for (i in 5..1) print(i) = 
     for (i in 5 downTo 1) print(i) = 54321
     for (i in 5 downTo 2) print(i) = 5432
     for (i in 1..5 step 2) print(i) = 135
     for (i in 5 downTo 1 step 2) print(i) = 531
+    ```
 
-    */
-    
+<h3> Reference </h3>
+
+- [Kotlin for Loop](https://www.javatpoint.com/kotlin-for-loop)
+
 ### while and do-while loop
 - while checks the condition and, if it's satisfied, executes the body and then returns to the condition check.
 - do-while executes the body and then checks the condition. If it's satisfied, the loop repeats. So, the body of do-while executes at least once regardless of the condition.
 
-    [```Try it Yourself```](http://jdoodle.com/ia/IGG)
     ```kotlin
     fun main() {  
       
@@ -264,11 +282,123 @@ Kotlin is designed to run on a Java Virtual Machine and can run side by side wit
         }  
         while (i>=0);  
     } 
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IGG)]
+
+
+<h3> References </h3>
+
+- [Kotlin while Loop](https://www.javatpoint.com/kotlin-while-loop)
+- [Kotlin do-while Loop](https://www.javatpoint.com/kotlin-do-while-loop)
+
+## Returns and Jumps
+### break
+- **break**
+    - A `break` expression is used to terminate the nearest enclosing loop. It is almost used with if-else conditions.
+    ```kotlin
+    for(..){  
+        //body of for  
+        if(checkCondition){  
+            break;  
+        }  
+    }  
+    ```
+- **labled break**
+    - Kotlin `labeled break` expression is used to terminate the specific loop. This is done by using the break expression with @ sign followed by label name (break@loop).
+
+    ```kotlin
+    fun main() {  
+        loop@ for (i in 1..3) {  
+            for (j in 1..3) {  
+                println("i = $i and j = $j")  
+                if (i == 2)  
+                    break@loop  
+            }  
+        }  
+    }  
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IGH)]
+
+    **Output**
+    ```
+    i = 1 and j = 1
+    i = 1 and j = 2
+    i = 1 and j = 3
+    i = 2 and j = 1
+    ```
+### continue
+- **continue**
+    - `continue` statement is used to repeat the loop. It continues the current flow of the program and skips the remaining code at specified condition.
+    ```kotlin
+    for(..){  
+        //body of for above if  
+        if(checkCondition){  
+            continue  
+        }  
+    //body of for below if  
+    }  
+    ```
+- **labled continue**
+    - `labeled continue` is used to skip the iteration of the desired block when it satisfies a specific condition without checking the condition in the while loop. If you mark the outer loop using the label outer@ and inner loop using inner@ then you can easily skip for the specific condition using continue@outer in the conditional block.
+
+    ```kotlin
+    fun main() {
+        var num1 = 4
+        outer@ while (num1 > 0) {
+            num1--
+            var num2 = 4
+            println("1 num1 = $num1, num2 = $num2")
+            inner@ while (num2 > 0) {
+                if (num1 <= 2)
+                    continue@outer
+                println("2 num1 = $num1, num2 = $num2")
+                num2--
+            }
+        }
+    }   
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IGJ)]
+
+    **Output**
+    ```
+    1 num1 = 3, num2 = 4
+    2 num1 = 3, num2 = 4
+    2 num1 = 3, num2 = 3
+    2 num1 = 3, num2 = 2
+    2 num1 = 3, num2 = 1
+    1 num1 = 2, num2 = 4
+    1 num1 = 1, num2 = 4
+    1 num1 = 0, num2 = 4
+    ```
+### return
+- functions can be nested using function literals, local functions, and object expressions. Qualified return allows us to return from an outer function. The most important use case is returning from a lambda expression.
+
+    ```kotlin
+    fun main() {
+        listOf(1, 2, 3, 4, 5).forEach {
+            if (it == 3) return
+            print(it)
+        }
+        println("this point is unreachable")
+    }
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IGK)]
+    
+    **Output**
+    ```
+    12
+    ```
+
+<h3> References </h3>
+
+- [Returns, Jumps and Labels in Kotlin](https://www.geeksforgeeks.org/returns-jumps-and-labels-in-kotlin/) (GFG)
+- [Returns and jumps](https://kotlinlang.org/docs/returns.html) (Kotlin ORG)
+- [Kotlin Return and Jump](https://www.javatpoint.com/kotlin-return-and-jump) (JavaTPoint)
 
 
 ## Kotlin Collections
 ### listOf()
-- Kotlin List is an interface and generic collection of elements. The List interface inherits form Collection<T> class. It is immutable and its methods support only read functionalities.
+- Kotlin List is an interface and generic collection of elements. The List interface inherits form Collection`<T>` class. It is immutable and its methods support only read functionalities.
 ### mutableListOf()
 - Kotlin MutableList is an interface and generic collection of elements. MutableList interface is mutable in nature. The methods of MutableList interface supports both read and write functionalities. Once the elements in MutableList have been declared, it can be added more elements in it or removed, so it has no fixed size length.
 ### arrayListOf()
@@ -291,7 +421,7 @@ Kotlin is designed to run on a Java Virtual Machine and can run side by side wit
 ### hashSetOf()
 - Kotlin HashSet is a collection class which extends AbstractMutableSet class and implements Set interface. The HashSet class stores elements using a hashing mechanism. - It supports both read and write functionality. It does not support duplicate value and does not make guarantees about the order sequence of elements.
 ### Generic Code for overview 
-[```Try it Yourself```](http://jdoodle.com/ia/IGt)
+
 ```kotlin
 fun main() {
     // Immutable Collections
@@ -369,11 +499,11 @@ fun main() {
         println("Key: $key, Value: $value")
     }
 }
+```
+[[Try it Yourself](http://jdoodle.com/ia/IGt)]
 
-/*
-
-Output : 
-
+**Output**
+```
 Immutable List:
 1
 2
@@ -415,9 +545,12 @@ Modified Mutable Map after removing entry:
 Key: 1, Value: one
 Key: 2, Value: two
 Key: 4, Value: four
-
-*/
 ```
+
+<h3> Reference </h3>
+
+- [Kotlin Collections](https://www.geeksforgeeks.org/kotlin-collections/)
+
 ## Functions
 ### Function types
 - Parameters
@@ -431,6 +564,7 @@ Key: 4, Value: four
         number: Int,
         exponent: Int, // <- trailing comma
     ) { /*...*/ }
+    ```
 - Default arguments
     - Function parameters can have default values, which are used when you skip the corresponding argument. This reduces the number of overloads.
     ```kotlin
@@ -439,6 +573,7 @@ Key: 4, Value: four
         baz: Int = 1,
         qux: () -> Unit,
     ) { /*...*/ }
+    ```
 - Named arguments
     - You can name one or more of a function's arguments when calling it. This can be helpful when a function has many arguments and it's difficult to associate a value with an argument
     ```kotlin
@@ -449,6 +584,7 @@ Key: 4, Value: four
         divideByCamelHumps: Boolean = false,
         wordSeparator: Char = ' ',
     ) { /*...*/ }
+    ```
 - Unit returning functions
     - If a function does not return a useful value, its return type is Unit. Unit is a type with only one value - Unit. This value does not have to be returned explicitly.
     ```kotlin
@@ -459,23 +595,28 @@ Key: 4, Value: four
             println("Hi there!")
         // `return Unit` or `return` is optional
     }
+    ```
 - Single expressions functions
     - When a function returns a single expression, the curly braces can be omitted and the body is specified after a = symbol:
     ```kotlin
     fun double(x: Int): Int = x * 2
+    ```
+
 - Infix Notation
-    - Functions marked with the infix keyword can also be called using the infix notation (omitting the dot and the parentheses for the call). Infix function calls have lower precedence than arithmetic operators, type casts, and the rangeTo operator.  Infix functions must meet the following requirements:
+    - Functions marked with the infix keyword can also be called using the infix notation [omitting the dot and the parentheses for the call]. Infix function calls have lower precedence than arithmetic operators, type casts, and the rangeTo operator.  Infix functions must meet the following requirements.
         - They must be member functions or extension functions.
         - They must have a single parameter.
         - The parameter must not accept variable number of arguments and must have no default value.
-    ```kotlin
-    infix fun Int.shl(x: Int): Int { ... }
-    
-    // calling the function using the infix notation
-    1 shl 2
-    
-    // is the same as
-    1.shl(2)
+        
+        ```kotlin
+        infix fun Int.shl(x: Int): Int { ... }
+        
+        // calling the function using the infix notation
+        1 shl 2
+        
+        // is the same as
+        1.shl(2)
+        ```
 ### Lambda Functions
 - Syntax of Lambda expressions
     - A lambda expression is always surrounded by curly braces, argument declarations go inside curly braces and have optional type annotations, the code_body goes after an arrow -> sign. If the inferred return type of the lambda is not Unit, then the last expression inside the lambda body is treated as return value
@@ -484,6 +625,7 @@ Key: 4, Value: four
     val sum = {a: Int , b: Int -> a + b}
     // without type annotation
     val sum2:(Int,Int)-> Int  = { a , b -> a + b}
+    ```
 - Type Declarations
     - We must explicitly declare the type of our lambda expression. If lambda returns no value then we can use: Unit. 
     - Lambdas examples with return type – 
@@ -491,6 +633,7 @@ Key: 4, Value: four
     val lambda1: (Int) -> Int = (a -> a * a)
     val lambda2: (String,String) -> String = { a , b -> a + b }
     val lambda3: (Int)-> Unit = {print(Int)}
+    ```
 - it: implicit name of a single parameter
     - In most cases lambdas contain the single parameter. Here, it is used to represent the single parameter we pass to lambda expression.
     ```kotlin
@@ -502,6 +645,7 @@ Key: 4, Value: four
         val shouldFilter = it > 0
         shouldFilter
     }
+    ```
 - Function Literals with receiver
     - Function types with receiver, such as A.(B) -> C, can be instantiated with a special form of function literals – function literals with receiver.
     ```kotlin
@@ -509,6 +653,7 @@ Key: 4, Value: four
     
     val result = "Kotlin".lambdax(1)
     // in this example `this` represents `string` and `it` represents the input value
+    ```
 - Returning a value from lambda expression
     - After execution of lambda the final value returned by the lambda expression. Any of these Integer, String or Boolean values can be returned by the lambda function.
     ```kotlin
@@ -520,6 +665,7 @@ Key: 4, Value: four
     	      return "ODD"
           }
     }
+    ```
 - Anonymous Function
     - An anonymous function is very similar to a regular function except for the name of the function which is omitted from the declaration. The body of the anonymous function can be either an expression or block.
     ```kotlin
@@ -531,11 +677,11 @@ Key: 4, Value: four
         val mul = a * b
         return mul
     }
+    ```
 ### Inline Functions
 - Non local control flow
     - From the inline function, we can return from the lambda expression itself. This will also lead to exit from the function in which the inline function was called. The function literal is allowed to have non local return statements in such cases.
     
-    [```Try it Yourself```](http://jdoodle.com/ia/IHn)
     ```kotlin
     fun main() {  
     inlineFunction({ println("calling inline functions")  
@@ -547,14 +693,13 @@ Key: 4, Value: four
         nxtFun()  
         print("code inside inline function")  
     }
-    
-    /*
-    
-    Output:
-    
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IHn)]
+
+    **Output**
+    ```
     calling inline functions
-    
-    */
+    ```
 - crossinline annotation
     - To prevent return from lambda expression and inline function itself, we can mark the lambda expression as crossinline. This will throw a compiler error if it found a return statement inside that lambda expression.
     ```kotlin
@@ -568,7 +713,8 @@ Key: 4, Value: four
         myFun()  
         nxtFun()  
         print("code inside inline function")  
-    }  
+    } 
+    ``` 
 - noinline modifier
     - In an inline function, when we want some of the lambdas passed in the inline function to be inlined, mark other function parameters with noinline modifier. This is used to set expressions not to be inlined in the call.
     ```kotlin
@@ -583,46 +729,53 @@ Key: 4, Value: four
         myFun()  
         nxtFun()  
         println("code inside inline function")  
-    }  
+    } 
+    ``` 
 ### Higher Order Functions
 - In Kotlin, a function which can accept a function as a parameter or can return a function is called Higher-Order function. Instead of Integer, String or Array as a parameter to function, we will pass anonymous functions or lambdas. Frequently, lambdas are passed as parameters in Kotlin functions for convenience. 
 
-[```Try it Yourself```](http://jdoodle.com/ia/IHq)
-```kotlin
+    ```kotlin
 
-// Pass lambda as parameter
-var lambda = {a: Int , b: Int -> a + b }
-    // higher order function
-fun higherfunc( lmbd: (Int, Int) -> Int) { 
-    var result = lmbd(2,4)  
-    println("The sum of two numbers is: $result")
-}
-fun main() {
-    higherfunc(lambda)       	//passing lambda as parameter
-}
-```
+    // Pass lambda as parameter
+    var lambda = {a: Int , b: Int -> a + b }
+        // higher order function
+    fun higherfunc( lmbd: (Int, Int) -> Int) { 
+        var result = lmbd(2,4)  
+        println("The sum of two numbers is: $result")
+    }
+    fun main() {
+        higherfunc(lambda)       	//passing lambda as parameter
+    }
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IHq)]
 
-[```Try it Yourself```](http://jdoodle.com/ia/IHs)
+    ```kotlin
+    // Pass function as parameter
+    fun printMe(s:String): Unit{
+        println(s)
+    }
+    fun higherfunc( str : String, myfunc: (String) -> Unit){
+        myfunc(str)
+    }
+    fun main() {
+        // invoke higher-order function
+        higherfunc("Hello world",::printMe)
+    }
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IHs)]
 
-```kotlin
-// Pass function as parameter
-fun printMe(s:String): Unit{
-    println(s)
-}
-fun higherfunc( str : String, myfunc: (String) -> Unit){
-    myfunc(str)
-}
-fun main() {
-    // invoke higher-order function
-    higherfunc("Hello world",::printMe)
-}
-```
+
+<h3> References </h3>
+
+- [Functions](https://kotlinlang.org/docs/functions.html)  (Kotlin ORG)
+- [Kotlin Function](https://www.javatpoint.com/kotlin-function)  (JavaTPoint)
+- [Kotlin Function](https://www.geeksforgeeks.org/kotlin-functions/)  (GFG)
 
 ## OOP Concepts
 ### Class and objects
 - **Class**
     - A class is a blueprint for creating objects (a particular data structure), providing initial values for state (member variables or fields), and implementations of behavior (member functions or methods).
-Kotlin class is similar to Java class, a class is a blueprint for the objects which have common properties.
+    - Kotlin class is similar to Java class, a class is a blueprint for the objects which have common properties.
 - **Objects**
     - Object is real time entity or may be a logical entity which has state and behavior. It has the characteristics:
         - state: it represents value of an object.
@@ -631,7 +784,6 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
 - **Example**
     - Below example contains creating objects, access member functions and member variables.
     
-    [```Try it Yourself```](http://jdoodle.com/ia/IGN)
     ```kotlin
     class employee {
           // Constructor Declaration of Class
@@ -673,24 +825,22 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
         println("Name of the new employee: ${obj2.name}")
      
     }
-    
-    /*
-    
-    Output 
-    
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IGN)]
+
+    **Output** 
+    ```
     Name of the employee: Praveen
     Age of the employee: 50
     Gender: M
     Salary of the employee: 500000.0
     Name of the new employee: Aliena
-
-    */
+    ```
 ### Nested and Inner Class
 - **Nested Classes**
     - Nested class is such class which is created inside another class. In Kotlin, nested class is by default static, so we can access the nested class property or variables using dot(.) notation without creating an object of the class.
     - Example : 
     
-    [```Try it Yourself```](http://jdoodle.com/ia/IGQ)
     ```kotlin
     class outerClass {
        private var name: String = "world new"
@@ -710,22 +860,19 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
        var obj = outerClass.nestedClass() // object creation
        obj.foo() // access member function
     }
-    
-    /*
-    
-    Output 
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IGQ)]
 
+    **Output** 
+    ```
     code inside nested class
     Id is 101
-    
-    */
+    ```
     
 - **Inner Classes**
     - When we can declare a class inside another class using the keyword inner then it is called inner class. With the help of the inner class, we can access the outer class property inside the inner class. 
     - Example:
     
-    [```Try it Yourself```](http://jdoodle.com/ia/IGS)
-
     ```kotlin
     class outerClass {
        private var name: String = "Kotlin"
@@ -744,21 +891,19 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
        var obj = outerClass().innerClass() // object creation
        obj.foo() // access member function
     }
-    
-    /*
-    
-    Output 
-    
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IGS)]
+
+    **Output** 
+    ```
     code inside inner class
     name is Kotlin
     Id is 101
-
-    */
+    ```
 ### Constructor
 - **Primary Constructor**
     - The primary constructor is initialized in the class header, goes after the class name, using the constructor keyword. The parameters are optional in the primary constructor.
     
-    [```Try it Yourself```](http://jdoodle.com/ia/IGU)
     ```kotlin
     fun main()
     {
@@ -770,19 +915,17 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
     {
         var c = a+b;
     }
-    
-    /*
-    
-    Output: 
-    
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IGU)]
+
+    **Output** 
+    ```
     The Sum of two numbers is: 11
-    
-    */
+    ```
     
 - **Primary Constructor with initializer block**
     - The primary constructor does not contain any code. Initializer blocks are used to initialization of code. This block is prefixed with init keyword. At the period of instance initialization, the initialized blocks are executed in the same order as they appear in class body.
     
-    [```Try it Yourself```](http://jdoodle.com/ia/IGV)
     ```kotlin
     class Person(val _name: String) {
     
@@ -808,23 +951,21 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
     fun main() {
         val person = Person("Kotlin")
     }
-    
-    /*
-    
-    Output:
-    
+    ```
+    [[Try it Yourself]](http://jdoodle.com/ia/IGV)]
+
+    **Output**
+    ```
     This is first init block
     This is second init block
     This is third init block
     Name = Kotlin
-
-    */
+    ```
 
 - **Secondary Constructor**
     - In Kotlin, secondary constructor can be created one or more in class. The secondary constructor is created using "constructor" keyword.
         - **Class with one secondary constructor**
         
-            [```Try it Yourself```](http://jdoodle.com/ia/IGX)
             ```kotlin
             fun main()
             {
@@ -839,18 +980,16 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
                     println("The sum of numbers 5 and 6 is: ${c}")
                 }
             }
-            
-            /*
-            
-            Output
-            
+            ```
+            [[Try it Yourself](http://jdoodle.com/ia/IGX)]
+
+            **Output**
+            ```
             The sum of numbers 5 and 6 is: 11
-            
-            */
+            ```
         
         - **Class with multiple secondary constructor**
         
-            [```Try it Yourself```](http://jdoodle.com/ia/IGZ)
             ```kotlin
             fun main()
             {
@@ -877,20 +1016,18 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
                     println("Sum of 2, 3, 4, 5 = ${e}")
                 }
             }
-            
-            /*
-            
-            Output
-            
+            ```
+            [[Try it Yourself](http://jdoodle.com/ia/IGZ)]
+
+            **Output**
+            ```
             Sum of 2, 3 = 5
             Sum of 2, 3, 4 = 9
             Sum of 2, 3, 4, 5 = 14
-            
-            */
+            ```
         
         - **Calling one secondary constructor from another**
         
-            [```Try it Yourself```](http://jdoodle.com/ia/IH1)
             ```kotlin
             fun main()
             {
@@ -908,15 +1045,14 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
                     println("The sum of three numbers 2, 3 and 4 is: $sumOfThree")
                 }
             }
-            
-            /*
-            
-            Output
-            
+            ```
+            [[Try it Yourself](http://jdoodle.com/ia/IH1)]
+
+            **Output**
+            ```
             The sum of three numbers 2, 3 and 4 is: 9
             The sum of two numbers 2 and 3 is: 5
-            
-            */
+            ```
 ### Inheritance
 - Inheritance is an important feature of object oriented programming language. Inheritance allows to inherit the feature of existing class (or base or parent class) to new class (or derived class or child class).
 - The main class is called super class (or parent class) and the class which inherits the superclass is called subclass (or child class). The subclass contains features of superclass as well as its own.
@@ -926,7 +1062,6 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
 - If the derived class contains a primary constructor, then we need to initialize the base class constructor using the parameters of the derived class.
 - If the derived class does not contain a primary constructor, we need to call the base class secondary constructor from the secondary constructor of derived class using the *super keyword.
     
-    [```Try it Yourself```](http://jdoodle.com/ia/IH3)
     ```kotlin
     open class baseClass{
        val name = "Hello Kotlin"
@@ -946,22 +1081,19 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
        derived.A()         // inheriting the  base class function
        derived.B()         // calling derived class function
     }
-    
-    /*
-    
-    Output
-    
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IH3)]
+
+    **Output**
+    ```
     Base Class
     Hello Kotlin
     Derived class
-
-    
-    */
+    ```
 ### Visibility Modifier
 - **private**
     - The private modifier restricts the visibility of a member to the containing class only. A private member cannot be accessed from outside the class.
     
-        [```Try it Yourself```](http://jdoodle.com/ia/IH7)
         ```kotlin
         private class A {
             private val int = 10
@@ -978,14 +1110,13 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
             // can not access 'int': it is private in class A
             println(a.int) 
         }
-        
-        /*
-        
-        Output
-        
+        ```
+        [[Try it Yourself](http://jdoodle.com/ia/IH7)]
+
+        **Output**
+        ```
         Cannot access 'int': it is private in 'A'
-        
-        */
+        ```
     
 - **internal** 
     - The internal modifier restricts the visibility of a member to the same *module. A module is a set of Kotlin files compiled together.
@@ -998,10 +1129,10 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
             internal fun display() {
             }
         }
+        ```
 - **protected** 
     - The protected modifier restricts the visibility of a member to the containing class and its subclasses.
     
-        [```Try it Yourself```](http://jdoodle.com/ia/IH9)
         ```kotlin
         open class A {
               // protected variable
@@ -1020,14 +1151,13 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
             var a = B()
             println("The value of integer is: "+a.getvalue())
         }
-        
-        /*
-        
-        Output
-        
+        ```
+        [[Try it Yourself](http://jdoodle.com/ia/IH9)]
+
+        **Output**
+        ```
         The value of integer is: 10
-        
-        */
+        ```
     
 - **public** 
     - The public modifier makes a member visible to any code. This is the default visibility for members in Kotlin.
@@ -1043,10 +1173,10 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
             println("Accessible everywhere")        
             }
         }
+        ```
 ### Abstract Class
 - A class which is declared with abstract keyword is known as abstract class. An abstract class cannot be instantiated. Means, we cannot create object of abstract class. The method and properties of abstract class are non-abstract unless they are explicitly declared as abstract.
 
-    [```Try it Yourself```](http://jdoodle.com/ia/IHa)
     ```kotlin
     abstract class Car {
        abstract fun run()
@@ -1062,16 +1192,15 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
         val obj = Lambo()
         obj.run()
     }
-    /*
-    
-    Output
-    
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IHa)]
+
+    **Output**
+    ```
     Lambo is running safely..
-    
-    */
+    ```
 - Bank real life example where abstraction is used
     
-    [```Try it Yourself```](http://jdoodle.com/ia/IHc)
     ```kotlin
     abstract class Bank {  
         abstract fun simpleInterest(p: Int, r: Double, t: Int) :Double  
@@ -1094,15 +1223,14 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
         val pnbint = pnb.simpleInterest(1000,4.5,3)  
         println("PNB interest is $pnbint")  
     }  
-    
-    /*
-    
-    Output
-    
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IHc)]
+
+    **Output**
+    ```
     SBI interest is 150.0
     PNB interest is 135.0
-    
-    */
+    ```
 
 
 ### Interface
@@ -1110,7 +1238,6 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
 - Methods in an interface can have default values for its parameters. If the value for a parameter is not provided at the time of function call, then the default value is used.
 - You can also inherit multiple interfaces to the class and can also inherit one interface to another.
 
-    [```Try it Yourself```](http://jdoodle.com/ia/IHe)
     ```kotlin
     interface Vehicle {
        fun start()
@@ -1129,18 +1256,17 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
        obj.start()
        obj.stop()
     }
-    
-    /*
-    Output
-    
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IHe)]
+
+    **Output**
+    ```
     Car started
     Car stopped
-    
-    */
+    ```
 ### Data Class
 - Data class is a simple class which is used to hold data/state and contains standard functionality. A data keyword is used to declare a class as a data class.
 
-    [```Try it Yourself```](http://jdoodle.com/ia/IHg)
     ```kotlin
     fun main() { 
         val u = User("Kotlin", 101, "mymail@mail.com") 
@@ -1148,20 +1274,18 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
         println(u.name);
     } 
     data class User(var name: String, var id: Int, var email: String) 
-    
-    /*
-    
-    Output
-    
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IHg)]
+
+    **Output**
+    ```
     User(name=Kotlin, id=101, email=mymail@mail.com)
     Kotlin
-    
-    */
+    ```
 
 ### Sealed class
 - Kotlin provides an important new type of class that is not present in Java. These are known as sealed classes. As the word sealed suggests, sealed classes conform to restricted or bounded class hierarchies. A sealed class defines a set of subclasses within it. It is used when it is known in advance that a type will conform to one of the subclass types. Sealed classes ensure type safety by restricting the types to be matched at compile-time rather than at runtime.
 
-    [```Try it Yourself```](http://jdoodle.com/ia/IHh)
     ```kotlin
     sealed class Fruit(val x : String)
     {
@@ -1196,21 +1320,19 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
         display(obj1)
         display(obj2)
     }
-    
-    /*
-    
-    Output
-    
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IHh)]
+
+    **Output**
+    ```
     Apple is good for iron
     Mango is delicious
     Pomegranate is good for vitamin d
-    
-    */
+    ```
 
 ### Extension function
 - Kotlin gives the programmer the ability to add more functionality to the existing classes, without inheriting them. This is achieved through a feature known as extensions. When a function is added to an existing class it is known as Extension Function. To add an extension function to a class, define a new function appended to the classname as shown in the following example:
 
-    [```Try it Yourself```](http://jdoodle.com/ia/IHi)
     ```kotlin
     class Circle(var radius : Int){
       fun area(): Int{
@@ -1228,15 +1350,18 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
       println(obj1.area())
       println(obj1.perimeter());
     }
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IHi)]
 
-    /*
-    
-    Output
-    
+    **Output**
+    ```
     16
     16
-    
-    */
+    ```
+
+<h3> Reference </h3>
+
+- [Kotlin Classes and Objects](https://www.javatpoint.com/kotlin-class-and-object)
 
 ## Null Safety
 ### Nullable and Non-Nullable Types in Kotlin
@@ -1252,9 +1377,8 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
 - Null Comparisons are simple but number of nested if-else expression could be burdensome. So, Kotlin has a Safe call operator, ?. that reduces this complexity and execute an action only when the specific reference holds a non-null value.. It allows us to combine a null-check and a method call in a single expression
    - name?.toUpperCase()
 ### Smart Cast
-- In Java or other programming languages, there is a requirement of explicit type casting on the variable before accessing the properties of that variable but Kotlin does a smart casting. The Kotlin compiler automatically converts the variable to a particular class reference once it’s passed through any conditional operator.\
-    
-    [```Try it Yourself```](http://jdoodle.com/ia/IHj)
+- In Java or other programming languages, there is a requirement of explicit type casting on the variable before accessing the properties of that variable but Kotlin does a smart casting. The Kotlin compiler automatically converts the variable to a particular class reference once it’s passed through any conditional operator.
+
     ```kotlin
     fun main() {
         val str1: String? = "KotlinNewWorld"
@@ -1268,6 +1392,10 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
             println("String is null")
         }
     }
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IHj)]
+
+
 ### Explicit type casting
 - **Unsafe cast operator : as**
     - Manually, we use the type cast operator as to cast a variable to target type. 
@@ -1290,7 +1418,6 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
 - **Safe cast operator : !as**
     - Kotlin also provides a facility of typecasting using safe cast operator as?. If casting is not possible it returns null instead of throwing an ClassCastException exception
     
-        [```Try it Yourself```](http://jdoodle.com/ia/IHk)
         ```kotlin
         fun main(){
  
@@ -1304,21 +1431,19 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
             println(str3)
             println(str4)
         }
-        
-        /*
-        
-        Output
-        
+        ```
+        [[Try it Yourself](http://jdoodle.com/ia/IHk)]
+
+        **Output**
+        ```
         Safe casting
         null
         11
-        
-        */
+        ```
     
 ### Elvis Operator (?:)
 - Elvis operator (?:) is used to return the not null value even the conditional expression is null. It is also used to check the null safety of values.
 
-    [```Try it Yourself```](http://jdoodle.com/ia/IHl)
     ```kotlin
     fun main(){  
       
@@ -1329,21 +1454,25 @@ Kotlin class is similar to Java class, a class is a blueprint for the objects wh
         println("Length of str is ${len1}")  
         println("Length of str2 is ${len2}")  
     }  
-    
-    /*
-    
-    Output
-    
+    ```
+    [[Try it Yourself](http://jdoodle.com/ia/IHl)]
+
+    **Output**
+    ```
     Length of str is -1
     Length of str2 is 30
-
-    */
+    ```
     
 ### NPE Operator (!!)
 - not-null assertion operator (!!) converts any value to a non-null type and throws an exception if the value is null. You can write b!!, and this will return a non-null        - value of b (for example, a String in our example) or throw an NPE if b is null:
     - val a: String? = null
     - val l = a!!.length // give null pointer exception
 
+
+<h3> Reference </h3>
+
+- [Kotlin Null Safety](https://www.geeksforgeeks.org/kotlin-null-safety/) (GFG)
+- [Null Safety](https://kotlinlang.org/docs/null-safety.html)(Kotlin ORG)
 
 
 ## Kotlin v/s Java for Android Development
