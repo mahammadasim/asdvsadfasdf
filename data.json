@@ -14,12 +14,30 @@
       },
       {
         "startIndex": 1,
-        "endIndex": 8,
+        "endIndex": 9,
         "paragraph": {
           "elements": [
             {
               "startIndex": 1,
-              "endIndex": 8,
+              "endIndex": 2,
+              "inlineObjectElement": {
+                "inlineObjectId": "kix.hwo2j2lhfdtn",
+                "textStyle": {
+                  "italic": true,
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 2,
+              "endIndex": 9,
               "textRun": {
                 "content": "Kotlin\n",
                 "textStyle": {
@@ -44,13 +62,13 @@
         }
       },
       {
-        "startIndex": 8,
-        "endIndex": 24,
+        "startIndex": 9,
+        "endIndex": 25,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 8,
-              "endIndex": 24,
+              "startIndex": 9,
+              "endIndex": 25,
               "textRun": {
                 "content": "What is Kotlin?\n",
                 "textStyle": {
@@ -70,13 +88,13 @@
         }
       },
       {
-        "startIndex": 24,
-        "endIndex": 243,
+        "startIndex": 25,
+        "endIndex": 239,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 24,
-              "endIndex": 53,
+              "startIndex": 25,
+              "endIndex": 54,
               "textRun": {
                 "content": "Kotlin is a general purpose, ",
                 "textStyle": {
@@ -92,8 +110,8 @@
               }
             },
             {
-              "startIndex": 53,
-              "endIndex": 57,
+              "startIndex": 54,
+              "endIndex": 58,
               "textRun": {
                 "content": "free",
                 "textStyle": {
@@ -110,10 +128,10 @@
               }
             },
             {
-              "startIndex": 57,
-              "endIndex": 162,
+              "startIndex": 58,
+              "endIndex": 176,
               "textRun": {
-                "content": ", open source, statically typed programming language initially designed for the JVM (Java Virtual Machine",
+                "content": ", open source, statically typed programming language initially designed for the JVM (Java Virtual Machine Android, and",
                 "textStyle": {
                   "fontSize": {
                     "magnitude": 12,
@@ -127,43 +145,8 @@
               }
             },
             {
-              "startIndex": 162,
-              "endIndex": 167,
-              "textRun": {
-                "content": ") and",
-                "textStyle": {
-                  "italic": true,
-                  "fontSize": {
-                    "magnitude": 12,
-                    "unit": "PT"
-                  },
-                  "weightedFontFamily": {
-                    "fontFamily": "Times New Roman",
-                    "weight": 400
-                  }
-                }
-              }
-            },
-            {
-              "startIndex": 167,
-              "endIndex": 180,
-              "textRun": {
-                "content": " Android, and",
-                "textStyle": {
-                  "fontSize": {
-                    "magnitude": 12,
-                    "unit": "PT"
-                  },
-                  "weightedFontFamily": {
-                    "fontFamily": "Times New Roman",
-                    "weight": 400
-                  }
-                }
-              }
-            },
-            {
-              "startIndex": 180,
-              "endIndex": 190,
+              "startIndex": 176,
+              "endIndex": 186,
               "textRun": {
                 "content": " combines ",
                 "textStyle": {
@@ -182,8 +165,8 @@
               }
             },
             {
-              "startIndex": 190,
-              "endIndex": 243,
+              "startIndex": 186,
+              "endIndex": 239,
               "textRun": {
                 "content": "object-oriented and functional programming features.\n",
                 "textStyle": {
@@ -227,13 +210,13 @@
         }
       },
       {
-        "startIndex": 243,
-        "endIndex": 266,
+        "startIndex": 239,
+        "endIndex": 262,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 243,
-              "endIndex": 266,
+              "startIndex": 239,
+              "endIndex": 262,
               "textRun": {
                 "content": "Where is Kotlin used? \n",
                 "textStyle": {
@@ -253,13 +236,13 @@
         }
       },
       {
-        "startIndex": 266,
-        "endIndex": 598,
+        "startIndex": 262,
+        "endIndex": 594,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 266,
-              "endIndex": 598,
+              "startIndex": 262,
+              "endIndex": 594,
               "textRun": {
                 "content": "Kotlin is designed to run on a Java Virtual Machine and can run side by side with Java. Although Kotlin first started as a language for Android development specifically, it quickly spread through the Java community because of its features and has since been used for many types of applications. It is used in below mentioned areas:\n",
                 "textStyle": {
@@ -303,13 +286,13 @@
         }
       },
       {
-        "startIndex": 598,
-        "endIndex": 618,
+        "startIndex": 594,
+        "endIndex": 614,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 598,
-              "endIndex": 618,
+              "startIndex": 594,
+              "endIndex": 614,
               "textRun": {
                 "content": "Android Development\n",
                 "textStyle": {
@@ -354,13 +337,13 @@
         }
       },
       {
-        "startIndex": 618,
-        "endIndex": 638,
+        "startIndex": 614,
+        "endIndex": 634,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 618,
-              "endIndex": 638,
+              "startIndex": 614,
+              "endIndex": 634,
               "textRun": {
                 "content": "Backend Development\n",
                 "textStyle": {
@@ -405,13 +388,81 @@
         }
       },
       {
-        "startIndex": 638,
-        "endIndex": 646,
+        "startIndex": 634,
+        "endIndex": 636,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 638,
-              "endIndex": 646,
+              "startIndex": 634,
+              "endIndex": 635,
+              "inlineObjectElement": {
+                "inlineObjectId": "kix.ece2lzfq0r0a",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 635,
+              "endIndex": 636,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.3d1q7e6l7vi8",
+            "textStyle": {
+              "underline": false,
+              "fontSize": {
+                "magnitude": 12,
+                "unit": "PT"
+              },
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 636,
+        "endIndex": 644,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 636,
+              "endIndex": 644,
               "textRun": {
                 "content": "bjkbkjb\n",
                 "textStyle": {
@@ -457,13 +508,13 @@
         }
       },
       {
-        "startIndex": 646,
-        "endIndex": 657,
+        "startIndex": 644,
+        "endIndex": 655,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 646,
-              "endIndex": 657,
+              "startIndex": 644,
+              "endIndex": 655,
               "textRun": {
                 "content": "jkbkjbkjbn\n",
                 "textStyle": {
@@ -509,13 +560,13 @@
         }
       },
       {
-        "startIndex": 657,
-        "endIndex": 668,
+        "startIndex": 655,
+        "endIndex": 666,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 657,
-              "endIndex": 668,
+              "startIndex": 655,
+              "endIndex": 666,
               "textRun": {
                 "content": "jkbkjbkjb\t\n",
                 "textStyle": {
@@ -561,13 +612,13 @@
         }
       },
       {
-        "startIndex": 668,
-        "endIndex": 680,
+        "startIndex": 666,
+        "endIndex": 678,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 668,
-              "endIndex": 680,
+              "startIndex": 666,
+              "endIndex": 678,
               "textRun": {
                 "content": "bkjbkjbkjbk\n",
                 "textStyle": {
@@ -613,13 +664,13 @@
         }
       },
       {
-        "startIndex": 680,
-        "endIndex": 691,
+        "startIndex": 678,
+        "endIndex": 689,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 680,
-              "endIndex": 691,
+              "startIndex": 678,
+              "endIndex": 689,
               "textRun": {
                 "content": "kjbjkbkjbn\n",
                 "textStyle": {
@@ -665,13 +716,13 @@
         }
       },
       {
-        "startIndex": 691,
-        "endIndex": 699,
+        "startIndex": 689,
+        "endIndex": 697,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 691,
-              "endIndex": 699,
+              "startIndex": 689,
+              "endIndex": 697,
               "textRun": {
                 "content": "kjbjkbb\n",
                 "textStyle": {
@@ -717,13 +768,13 @@
         }
       },
       {
-        "startIndex": 699,
-        "endIndex": 706,
+        "startIndex": 697,
+        "endIndex": 704,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 699,
-              "endIndex": 706,
+              "startIndex": 697,
+              "endIndex": 704,
               "textRun": {
                 "content": "bkjb\t\t\n",
                 "textStyle": {
@@ -769,13 +820,13 @@
         }
       },
       {
-        "startIndex": 706,
-        "endIndex": 716,
+        "startIndex": 704,
+        "endIndex": 714,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 706,
-              "endIndex": 716,
+              "startIndex": 704,
+              "endIndex": 714,
               "textRun": {
                 "content": "jbnkjbjkb\n",
                 "textStyle": {
@@ -821,13 +872,13 @@
         }
       },
       {
-        "startIndex": 716,
-        "endIndex": 724,
+        "startIndex": 714,
+        "endIndex": 722,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 716,
-              "endIndex": 724,
+              "startIndex": 714,
+              "endIndex": 722,
               "textRun": {
                 "content": "bkjbjkb\n",
                 "textStyle": {
@@ -873,13 +924,13 @@
         }
       },
       {
-        "startIndex": 724,
-        "endIndex": 731,
+        "startIndex": 722,
+        "endIndex": 729,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 724,
-              "endIndex": 731,
+              "startIndex": 722,
+              "endIndex": 729,
               "textRun": {
                 "content": "nkjbkj\n",
                 "textStyle": {
@@ -925,13 +976,13 @@
         }
       },
       {
-        "startIndex": 731,
-        "endIndex": 739,
+        "startIndex": 729,
+        "endIndex": 737,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 731,
-              "endIndex": 739,
+              "startIndex": 729,
+              "endIndex": 737,
               "textRun": {
                 "content": "jkbkjb\t\n",
                 "textStyle": {
@@ -977,13 +1028,13 @@
         }
       },
       {
-        "startIndex": 739,
-        "endIndex": 753,
+        "startIndex": 737,
+        "endIndex": 751,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 739,
-              "endIndex": 753,
+              "startIndex": 737,
+              "endIndex": 751,
               "textRun": {
                 "content": "jkbkjbkjb’kjb\n",
                 "textStyle": {
@@ -1029,13 +1080,13 @@
         }
       },
       {
-        "startIndex": 753,
-        "endIndex": 763,
+        "startIndex": 751,
+        "endIndex": 761,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 753,
-              "endIndex": 763,
+              "startIndex": 751,
+              "endIndex": 761,
               "textRun": {
                 "content": "ljbkjbjkb\n",
                 "textStyle": {
@@ -1081,13 +1132,13 @@
         }
       },
       {
-        "startIndex": 763,
-        "endIndex": 771,
+        "startIndex": 761,
+        "endIndex": 769,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 763,
-              "endIndex": 771,
+              "startIndex": 761,
+              "endIndex": 769,
               "textRun": {
                 "content": "kjbjbkj\n",
                 "textStyle": {
@@ -1133,13 +1184,13 @@
         }
       },
       {
-        "startIndex": 771,
-        "endIndex": 794,
+        "startIndex": 769,
+        "endIndex": 792,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 771,
-              "endIndex": 794,
+              "startIndex": 769,
+              "endIndex": 792,
               "textRun": {
                 "content": "Full Stack Development\n",
                 "textStyle": {
@@ -1184,13 +1235,13 @@
         }
       },
       {
-        "startIndex": 794,
-        "endIndex": 828,
+        "startIndex": 792,
+        "endIndex": 826,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 794,
-              "endIndex": 828,
+              "startIndex": 792,
+              "endIndex": 826,
               "textRun": {
                 "content": "Multi Platform Mobile Development\n",
                 "textStyle": {
@@ -1235,13 +1286,13 @@
         }
       },
       {
-        "startIndex": 828,
-        "endIndex": 847,
+        "startIndex": 826,
+        "endIndex": 845,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 828,
-              "endIndex": 847,
+              "startIndex": 826,
+              "endIndex": 845,
               "textRun": {
                 "content": "Features of Kotlin\n",
                 "textStyle": {
@@ -1261,13 +1312,13 @@
         }
       },
       {
-        "startIndex": 847,
-        "endIndex": 860,
+        "startIndex": 845,
+        "endIndex": 858,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 847,
-              "endIndex": 860,
+              "startIndex": 845,
+              "endIndex": 858,
               "textRun": {
                 "content": "Data Classes\n",
                 "textStyle": {
@@ -1303,13 +1354,13 @@
         }
       },
       {
-        "startIndex": 860,
-        "endIndex": 868,
+        "startIndex": 858,
+        "endIndex": 866,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 860,
-              "endIndex": 868,
+              "startIndex": 858,
+              "endIndex": 866,
               "textRun": {
                 "content": "Concise\n",
                 "textStyle": {
@@ -1345,13 +1396,13 @@
         }
       },
       {
-        "startIndex": 868,
-        "endIndex": 880,
+        "startIndex": 866,
+        "endIndex": 878,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 868,
-              "endIndex": 880,
+              "startIndex": 866,
+              "endIndex": 878,
               "textRun": {
                 "content": "Null safety\n",
                 "textStyle": {
@@ -1387,13 +1438,13 @@
         }
       },
       {
-        "startIndex": 880,
-        "endIndex": 904,
+        "startIndex": 878,
+        "endIndex": 902,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 880,
-              "endIndex": 904,
+              "startIndex": 878,
+              "endIndex": 902,
               "textRun": {
                 "content": "Interoperable with Java\n",
                 "textStyle": {
@@ -1429,13 +1480,13 @@
         }
       },
       {
-        "startIndex": 904,
-        "endIndex": 936,
+        "startIndex": 902,
+        "endIndex": 934,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 904,
-              "endIndex": 936,
+              "startIndex": 902,
+              "endIndex": 934,
               "textRun": {
                 "content": "Functional and OOP Capabilities\n",
                 "textStyle": {
@@ -1471,13 +1522,13 @@
         }
       },
       {
-        "startIndex": 936,
-        "endIndex": 947,
+        "startIndex": 934,
+        "endIndex": 945,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 936,
-              "endIndex": 947,
+              "startIndex": 934,
+              "endIndex": 945,
               "textRun": {
                 "content": "Smart Cast\n",
                 "textStyle": {
@@ -1513,13 +1564,13 @@
         }
       },
       {
-        "startIndex": 947,
-        "endIndex": 961,
+        "startIndex": 945,
+        "endIndex": 959,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 947,
-              "endIndex": 961,
+              "startIndex": 945,
+              "endIndex": 959,
               "textRun": {
                 "content": "Tool friendly\n",
                 "textStyle": {
@@ -1555,13 +1606,13 @@
         }
       },
       {
-        "startIndex": 961,
-        "endIndex": 988,
+        "startIndex": 959,
+        "endIndex": 986,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 961,
-              "endIndex": 987,
+              "startIndex": 959,
+              "endIndex": 985,
               "textRun": {
                 "content": "First Program Using Kotlin",
                 "textStyle": {
@@ -1573,8 +1624,8 @@
               }
             },
             {
-              "startIndex": 987,
-              "endIndex": 988,
+              "startIndex": 985,
+              "endIndex": 986,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1589,13 +1640,13 @@
         }
       },
       {
-        "startIndex": 988,
-        "endIndex": 1017,
+        "startIndex": 986,
+        "endIndex": 1015,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 988,
-              "endIndex": 1016,
+              "startIndex": 986,
+              "endIndex": 1014,
               "textRun": {
                 "content": "https://play.kotlinlang.org/",
                 "textStyle": {
@@ -1620,8 +1671,8 @@
               }
             },
             {
-              "startIndex": 1016,
-              "endIndex": 1017,
+              "startIndex": 1014,
+              "endIndex": 1015,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1658,13 +1709,13 @@
         }
       },
       {
-        "startIndex": 1017,
-        "endIndex": 1046,
+        "startIndex": 1015,
+        "endIndex": 1044,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1017,
-              "endIndex": 1046,
+              "startIndex": 1015,
+              "endIndex": 1044,
               "textRun": {
                 "content": "Environment Setup on windows\n",
                 "textStyle": {
@@ -1714,13 +1765,13 @@
         }
       },
       {
-        "startIndex": 1046,
-        "endIndex": 1113,
+        "startIndex": 1044,
+        "endIndex": 1111,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1046,
-              "endIndex": 1112,
+              "startIndex": 1044,
+              "endIndex": 1110,
               "textRun": {
                 "content": "https://www.tutorialspoint.com/kotlin/kotlin_environment_setup.htm",
                 "textStyle": {
@@ -1741,8 +1792,8 @@
               }
             },
             {
-              "startIndex": 1112,
-              "endIndex": 1113,
+              "startIndex": 1110,
+              "endIndex": 1111,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -1769,13 +1820,13 @@
         }
       },
       {
-        "startIndex": 1113,
-        "endIndex": 1156,
+        "startIndex": 1111,
+        "endIndex": 1154,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1113,
-              "endIndex": 1156,
+              "startIndex": 1111,
+              "endIndex": 1154,
               "textRun": {
                 "content": "Environment Setup on Local Machine (Linux)\n",
                 "textStyle": {
@@ -1825,13 +1876,13 @@
         }
       },
       {
-        "startIndex": 1156,
-        "endIndex": 1210,
+        "startIndex": 1154,
+        "endIndex": 1208,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1156,
-              "endIndex": 1202,
+              "startIndex": 1154,
+              "endIndex": 1200,
               "textRun": {
                 "content": "Update apt to load the latest package on apt. ",
                 "textStyle": {
@@ -1843,8 +1894,8 @@
               }
             },
             {
-              "startIndex": 1202,
-              "endIndex": 1209,
+              "startIndex": 1200,
+              "endIndex": 1207,
               "textRun": {
                 "content": "-\u003eGo To",
                 "textStyle": {
@@ -1880,8 +1931,8 @@
               }
             },
             {
-              "startIndex": 1209,
-              "endIndex": 1210,
+              "startIndex": 1207,
+              "endIndex": 1208,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1934,13 +1985,13 @@
         }
       },
       {
-        "startIndex": 1210,
-        "endIndex": 1211,
+        "startIndex": 1208,
+        "endIndex": 1209,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1210,
-              "endIndex": 1211,
+              "startIndex": 1208,
+              "endIndex": 1209,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -1970,18 +2021,39 @@
           ],
           "paragraphStyle": {
             "namedStyleType": "NORMAL_TEXT",
-            "direction": "LEFT_TO_RIGHT"
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.dxsi7xtzpuyi",
+            "textStyle": {
+              "fontSize": {
+                "magnitude": 12,
+                "unit": "PT"
+              },
+              "weightedFontFamily": {
+                "fontFamily": "Times New Roman",
+                "weight": 400
+              }
+            }
           }
         }
       },
       {
-        "startIndex": 1211,
-        "endIndex": 1230,
+        "startIndex": 1209,
+        "endIndex": 1228,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1211,
-              "endIndex": 1230,
+              "startIndex": 1209,
+              "endIndex": 1228,
               "textRun": {
                 "content": "Kotlin Collections\n",
                 "textStyle": {
@@ -2001,13 +2073,13 @@
         }
       },
       {
-        "startIndex": 1230,
-        "endIndex": 1239,
+        "startIndex": 1228,
+        "endIndex": 1237,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1230,
-              "endIndex": 1239,
+              "startIndex": 1228,
+              "endIndex": 1237,
               "textRun": {
                 "content": "listOf()\n",
                 "textStyle": {
@@ -2057,13 +2129,13 @@
         }
       },
       {
-        "startIndex": 1239,
-        "endIndex": 1424,
+        "startIndex": 1237,
+        "endIndex": 1422,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1239,
-              "endIndex": 1423,
+              "startIndex": 1237,
+              "endIndex": 1421,
               "textRun": {
                 "content": "Kotlin List is an interface and generic collection of elements. The List interface inherits form Collection\u003cT\u003e class. It is immutable and its methods support only read functionalities.",
                 "textStyle": {
@@ -2075,8 +2147,8 @@
               }
             },
             {
-              "startIndex": 1423,
-              "endIndex": 1424,
+              "startIndex": 1421,
+              "endIndex": 1422,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2108,13 +2180,13 @@
         }
       },
       {
-        "startIndex": 1424,
-        "endIndex": 1440,
+        "startIndex": 1422,
+        "endIndex": 1438,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1424,
-              "endIndex": 1440,
+              "startIndex": 1422,
+              "endIndex": 1438,
               "textRun": {
                 "content": "mutableListOf()\n",
                 "textStyle": {
@@ -2164,13 +2236,13 @@
         }
       },
       {
-        "startIndex": 1440,
-        "endIndex": 1771,
+        "startIndex": 1438,
+        "endIndex": 1769,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1440,
-              "endIndex": 1770,
+              "startIndex": 1438,
+              "endIndex": 1768,
               "textRun": {
                 "content": "Kotlin MutableList is an interface and generic collection of elements. MutableList interface is mutable in nature. The methods of MutableList interface supports both read and write functionalities. Once the elements in MutableList have been declared, it can be added more elements in it or removed, so it has no fixed size length.",
                 "textStyle": {
@@ -2182,8 +2254,8 @@
               }
             },
             {
-              "startIndex": 1770,
-              "endIndex": 1771,
+              "startIndex": 1768,
+              "endIndex": 1769,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -2215,13 +2287,13 @@
         }
       },
       {
-        "startIndex": 1771,
-        "endIndex": 1785,
+        "startIndex": 1769,
+        "endIndex": 1783,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1771,
-              "endIndex": 1785,
+              "startIndex": 1769,
+              "endIndex": 1783,
               "textRun": {
                 "content": "arrayListOf()\n",
                 "textStyle": {
@@ -2271,13 +2343,13 @@
         }
       },
       {
-        "startIndex": 1785,
-        "endIndex": 1976,
+        "startIndex": 1783,
+        "endIndex": 1974,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1785,
-              "endIndex": 1976,
+              "startIndex": 1783,
+              "endIndex": 1974,
               "textRun": {
                 "content": "An arrayListOf() is a function of the ArrayList class. ArrayList is mutable which means it provides both read and write functionalities. The arrayListOf() function returns an ArrayList type.\n",
                 "textStyle": {
@@ -2314,13 +2386,13 @@
         }
       },
       {
-        "startIndex": 1976,
-        "endIndex": 1984,
+        "startIndex": 1974,
+        "endIndex": 1982,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1976,
-              "endIndex": 1984,
+              "startIndex": 1974,
+              "endIndex": 1982,
               "textRun": {
                 "content": "mapOf()\n",
                 "textStyle": {
@@ -2370,13 +2442,13 @@
         }
       },
       {
-        "startIndex": 1984,
-        "endIndex": 2343,
+        "startIndex": 1982,
+        "endIndex": 2341,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 1984,
-              "endIndex": 2343,
+              "startIndex": 1982,
+              "endIndex": 2341,
               "textRun": {
                 "content": "Kotlin Map is an interface and generic collection of elements. Map interface holds data in the form of key and value pair. Map key are unique and hold only one value for each key. The key and value may be of different pairs such as \u003cInt, Int\u003e,\u003cInt, String\u003e, \u003cChar, String\u003eetc. This interface is immutable, fixed size and its methods support read only access.\n",
                 "textStyle": {
@@ -2413,13 +2485,13 @@
         }
       },
       {
-        "startIndex": 2343,
-        "endIndex": 2355,
+        "startIndex": 2341,
+        "endIndex": 2353,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2343,
-              "endIndex": 2355,
+              "startIndex": 2341,
+              "endIndex": 2353,
               "textRun": {
                 "content": "hashMapOf()\n",
                 "textStyle": {
@@ -2469,13 +2541,13 @@
         }
       },
       {
-        "startIndex": 2355,
-        "endIndex": 2619,
+        "startIndex": 2353,
+        "endIndex": 2617,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2355,
-              "endIndex": 2619,
+              "startIndex": 2353,
+              "endIndex": 2617,
               "textRun": {
                 "content": "Kotlin HashMap is a class of collection based on the MutableMap interface. Kotlin HashMap class implements the MutableMap interface using Hash table. It stores the data in the form of key and value pairs. It is represented as HashMap\u003ckey, value\u003e or HashMap\u003cK, V\u003e.\n",
                 "textStyle": {
@@ -2512,13 +2584,13 @@
         }
       },
       {
-        "startIndex": 2619,
-        "endIndex": 2746,
+        "startIndex": 2617,
+        "endIndex": 2744,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2619,
-              "endIndex": 2746,
+              "startIndex": 2617,
+              "endIndex": 2744,
               "textRun": {
                 "content": "The implementation of HashMap class does not make guarantees about the order of data of key, value and entries of collections.\n",
                 "textStyle": {
@@ -2555,13 +2627,13 @@
         }
       },
       {
-        "startIndex": 2746,
-        "endIndex": 2990,
+        "startIndex": 2744,
+        "endIndex": 2988,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2746,
-              "endIndex": 2990,
+              "startIndex": 2744,
+              "endIndex": 2988,
               "textRun": {
                 "content": "A hashMapOf() is a function of the HashMap class. It returns a new HashMap with the specified contents. It contains pairs of data in the form of key and value. HashMap is a mutable collection which provides both read and write functionalities.\n",
                 "textStyle": {
@@ -2598,13 +2670,13 @@
         }
       },
       {
-        "startIndex": 2990,
-        "endIndex": 3005,
+        "startIndex": 2988,
+        "endIndex": 3003,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 2990,
-              "endIndex": 3005,
+              "startIndex": 2988,
+              "endIndex": 3003,
               "textRun": {
                 "content": "mutableMapOf()\n",
                 "textStyle": {
@@ -2654,13 +2726,13 @@
         }
       },
       {
-        "startIndex": 3005,
-        "endIndex": 3351,
+        "startIndex": 3003,
+        "endIndex": 3349,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3005,
-              "endIndex": 3351,
+              "startIndex": 3003,
+              "endIndex": 3349,
               "textRun": {
                 "content": "Kotlin MutableMap is an interface of collection framework that holds the object in the form of key and value pair. The values of the MutableMap interface are retrieved by using their corresponding keys. The key and value may be of different pairs such as \u003cInt, Int\u003e,\u003cInt, String\u003e, \u003cChar, String\u003e etc. Each key of MutableMap holds only one value.\n",
                 "textStyle": {
@@ -2697,13 +2769,13 @@
         }
       },
       {
-        "startIndex": 3351,
-        "endIndex": 3458,
+        "startIndex": 3349,
+        "endIndex": 3456,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3351,
-              "endIndex": 3458,
+              "startIndex": 3349,
+              "endIndex": 3456,
               "textRun": {
                 "content": "To use the MutableMap interface we need to use its function called mutableMapOf() or mutableMapOf \u003ck,v\u003e().\n",
                 "textStyle": {
@@ -2740,13 +2812,13 @@
         }
       },
       {
-        "startIndex": 3458,
-        "endIndex": 3466,
+        "startIndex": 3456,
+        "endIndex": 3464,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3458,
-              "endIndex": 3466,
+              "startIndex": 3456,
+              "endIndex": 3464,
               "textRun": {
                 "content": "setOf()\n",
                 "textStyle": {
@@ -2796,13 +2868,13 @@
         }
       },
       {
-        "startIndex": 3466,
-        "endIndex": 3680,
+        "startIndex": 3464,
+        "endIndex": 3678,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3466,
-              "endIndex": 3680,
+              "startIndex": 3464,
+              "endIndex": 3678,
               "textRun": {
                 "content": "Kotlin Set interface is a generic unordered collection of elements. Set interface does not support duplicate elements. This interface is immutable in nature; its methods support read-only functionality of the set.\n",
                 "textStyle": {
@@ -2839,13 +2911,13 @@
         }
       },
       {
-        "startIndex": 3680,
-        "endIndex": 3802,
+        "startIndex": 3678,
+        "endIndex": 3800,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3680,
-              "endIndex": 3800,
+              "startIndex": 3678,
+              "endIndex": 3798,
               "textRun": {
                 "content": "Set interface uses setOf() function to create the list of objects of the set interface which contains a list of elements",
                 "textStyle": {
@@ -2857,8 +2929,8 @@
               }
             },
             {
-              "startIndex": 3800,
-              "endIndex": 3802,
+              "startIndex": 3798,
+              "endIndex": 3800,
               "textRun": {
                 "content": ".\n",
                 "textStyle": {}
@@ -2885,13 +2957,13 @@
         }
       },
       {
-        "startIndex": 3802,
-        "endIndex": 3817,
+        "startIndex": 3800,
+        "endIndex": 3815,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3802,
-              "endIndex": 3817,
+              "startIndex": 3800,
+              "endIndex": 3815,
               "textRun": {
                 "content": "mutableSetOf()\n",
                 "textStyle": {
@@ -2941,13 +3013,13 @@
         }
       },
       {
-        "startIndex": 3817,
-        "endIndex": 4068,
+        "startIndex": 3815,
+        "endIndex": 4066,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 3817,
-              "endIndex": 4068,
+              "startIndex": 3815,
+              "endIndex": 4066,
               "textRun": {
                 "content": "Kotlin MutableSet interface is a generic unordered collection of elements. MutableSet interface does not support duplicate elements. This interface is mutable so its methods support read-write functionality that supports adding and removing elements.\n",
                 "textStyle": {
@@ -2984,13 +3056,13 @@
         }
       },
       {
-        "startIndex": 4068,
-        "endIndex": 4193,
+        "startIndex": 4066,
+        "endIndex": 4191,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4068,
-              "endIndex": 4193,
+              "startIndex": 4066,
+              "endIndex": 4191,
               "textRun": {
                 "content": "Set interface uses mutableSetOf() function to create the list of objects of set interface which contains a list of elements.\n",
                 "textStyle": {
@@ -3027,13 +3099,13 @@
         }
       },
       {
-        "startIndex": 4193,
-        "endIndex": 4205,
+        "startIndex": 4191,
+        "endIndex": 4203,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4193,
-              "endIndex": 4205,
+              "startIndex": 4191,
+              "endIndex": 4203,
               "textRun": {
                 "content": "hashSetOf()\n",
                 "textStyle": {
@@ -3083,13 +3155,13 @@
         }
       },
       {
-        "startIndex": 4205,
-        "endIndex": 4522,
+        "startIndex": 4203,
+        "endIndex": 4520,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4205,
-              "endIndex": 4522,
+              "startIndex": 4203,
+              "endIndex": 4520,
               "textRun": {
                 "content": "Kotlin HashSet is a collection class which extends AbstractMutableSet class and implements Set interface. The HashSet class stores elements using a hashing mechanism. It supports both read and write functionality. It does not support duplicate value and does not make guarantees about the order sequence of elements.\n",
                 "textStyle": {
@@ -3126,13 +3198,13 @@
         }
       },
       {
-        "startIndex": 4522,
-        "endIndex": 4549,
+        "startIndex": 4520,
+        "endIndex": 4547,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 4522,
-              "endIndex": 4549,
+              "startIndex": 4520,
+              "endIndex": 4547,
               "textRun": {
                 "content": "Generic Code for overview \n",
                 "textStyle": {
@@ -3182,28 +3254,28 @@
         }
       },
       {
-        "startIndex": 4549,
-        "endIndex": 7233,
+        "startIndex": 4547,
+        "endIndex": 7231,
         "table": {
           "rows": 1,
           "columns": 2,
           "tableRows": [
             {
-              "startIndex": 4550,
-              "endIndex": 7232,
+              "startIndex": 4548,
+              "endIndex": 7230,
               "tableCells": [
                 {
-                  "startIndex": 4551,
-                  "endIndex": 6759,
+                  "startIndex": 4549,
+                  "endIndex": 6757,
                   "content": [
                     {
-                      "startIndex": 4552,
-                      "endIndex": 4568,
+                      "startIndex": 4550,
+                      "endIndex": 4566,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 4552,
-                            "endIndex": 4567,
+                            "startIndex": 4550,
+                            "endIndex": 4565,
                             "textRun": {
                               "content": "Try it Yourself",
                               "textStyle": {
@@ -3237,8 +3309,8 @@
                             }
                           },
                           {
-                            "startIndex": 4567,
-                            "endIndex": 4568,
+                            "startIndex": 4565,
+                            "endIndex": 4566,
                             "textRun": {
                               "content": "\n",
                               "textStyle": {
@@ -3275,13 +3347,13 @@
                       }
                     },
                     {
-                      "startIndex": 4568,
-                      "endIndex": 4569,
+                      "startIndex": 4566,
+                      "endIndex": 4567,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 4568,
-                            "endIndex": 4569,
+                            "startIndex": 4566,
+                            "endIndex": 4567,
                             "textRun": {
                               "content": "\n",
                               "textStyle": {
@@ -3319,13 +3391,13 @@
                       }
                     },
                     {
-                      "startIndex": 4569,
-                      "endIndex": 6759,
+                      "startIndex": 4567,
+                      "endIndex": 6757,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 4569,
-                            "endIndex": 4572,
+                            "startIndex": 4567,
+                            "endIndex": 4570,
                             "textRun": {
                               "content": "fun",
                               "textStyle": {
@@ -3355,8 +3427,8 @@
                             }
                           },
                           {
-                            "startIndex": 4572,
-                            "endIndex": 4573,
+                            "startIndex": 4570,
+                            "endIndex": 4571,
                             "textRun": {
                               "content": " ",
                               "textStyle": {
@@ -3386,8 +3458,8 @@
                             }
                           },
                           {
-                            "startIndex": 4573,
-                            "endIndex": 4577,
+                            "startIndex": 4571,
+                            "endIndex": 4575,
                             "textRun": {
                               "content": "main",
                               "textStyle": {
@@ -3417,8 +3489,8 @@
                             }
                           },
                           {
-                            "startIndex": 4577,
-                            "endIndex": 4586,
+                            "startIndex": 4575,
+                            "endIndex": 4584,
                             "textRun": {
                               "content": "() {\u000b    ",
                               "textStyle": {
@@ -3448,8 +3520,8 @@
                             }
                           },
                           {
-                            "startIndex": 4586,
-                            "endIndex": 4610,
+                            "startIndex": 4584,
+                            "endIndex": 4608,
                             "textRun": {
                               "content": "// Immutable Collections",
                               "textStyle": {
@@ -3479,8 +3551,8 @@
                             }
                           },
                           {
-                            "startIndex": 4610,
-                            "endIndex": 4615,
+                            "startIndex": 4608,
+                            "endIndex": 4613,
                             "textRun": {
                               "content": "\u000b    ",
                               "textStyle": {
@@ -3510,8 +3582,8 @@
                             }
                           },
                           {
-                            "startIndex": 4615,
-                            "endIndex": 4618,
+                            "startIndex": 4613,
+                            "endIndex": 4616,
                             "textRun": {
                               "content": "val",
                               "textStyle": {
@@ -3541,8 +3613,8 @@
                             }
                           },
                           {
-                            "startIndex": 4618,
-                            "endIndex": 4642,
+                            "startIndex": 4616,
+                            "endIndex": 4640,
                             "textRun": {
                               "content": " immutableList = listOf(",
                               "textStyle": {
@@ -3572,8 +3644,8 @@
                             }
                           },
                           {
-                            "startIndex": 4642,
-                            "endIndex": 4643,
+                            "startIndex": 4640,
+                            "endIndex": 4641,
                             "textRun": {
                               "content": "1",
                               "textStyle": {
@@ -3603,8 +3675,8 @@
                             }
                           },
                           {
-                            "startIndex": 4643,
-                            "endIndex": 4645,
+                            "startIndex": 4641,
+                            "endIndex": 4643,
                             "textRun": {
                               "content": ", ",
                               "textStyle": {
@@ -3634,8 +3706,8 @@
                             }
                           },
                           {
-                            "startIndex": 4645,
-                            "endIndex": 4646,
+                            "startIndex": 4643,
+                            "endIndex": 4644,
                             "textRun": {
                               "content": "2",
                               "textStyle": {
@@ -3665,8 +3737,8 @@
                             }
                           },
                           {
-                            "startIndex": 4646,
-                            "endIndex": 4648,
+                            "startIndex": 4644,
+                            "endIndex": 4646,
                             "textRun": {
                               "content": ", ",
                               "textStyle": {
@@ -3696,8 +3768,8 @@
                             }
                           },
                           {
-                            "startIndex": 4648,
-                            "endIndex": 4649,
+                            "startIndex": 4646,
+                            "endIndex": 4647,
                             "textRun": {
                               "content": "3",
                               "textStyle": {
@@ -3727,8 +3799,8 @@
                             }
                           },
                           {
-                            "startIndex": 4649,
-                            "endIndex": 4652,
+                            "startIndex": 4647,
+                            "endIndex": 4650,
                             "textRun": {
                               "content": ")  ",
                               "textStyle": {
@@ -3758,8 +3830,8 @@
                             }
                           },
                           {
-                            "startIndex": 4652,
-                            "endIndex": 4669,
+                            "startIndex": 4650,
+                            "endIndex": 4667,
                             "textRun": {
                               "content": "// Immutable List",
                               "textStyle": {
@@ -3789,8 +3861,8 @@
                             }
                           },
                           {
-                            "startIndex": 4669,
-                            "endIndex": 4674,
+                            "startIndex": 4667,
+                            "endIndex": 4672,
                             "textRun": {
                               "content": "\u000b    ",
                               "textStyle": {
@@ -3820,8 +3892,8 @@
                             }
                           },
                           {
-                            "startIndex": 4674,
-                            "endIndex": 4677,
+                            "startIndex": 4672,
+                            "endIndex": 4675,
                             "textRun": {
                               "content": "val",
                               "textStyle": {
@@ -3851,8 +3923,8 @@
                             }
                           },
                           {
-                            "startIndex": 4677,
-                            "endIndex": 4699,
+                            "startIndex": 4675,
+                            "endIndex": 4697,
                             "textRun": {
                               "content": " immutableSet = setOf(",
                               "textStyle": {
@@ -3882,8 +3954,8 @@
                             }
                           },
                           {
-                            "startIndex": 4699,
-                            "endIndex": 4702,
+                            "startIndex": 4697,
+                            "endIndex": 4700,
                             "textRun": {
                               "content": "\"a\"",
                               "textStyle": {
@@ -3913,8 +3985,8 @@
                             }
                           },
                           {
-                            "startIndex": 4702,
-                            "endIndex": 4704,
+                            "startIndex": 4700,
+                            "endIndex": 4702,
                             "textRun": {
                               "content": ", ",
                               "textStyle": {
@@ -3944,8 +4016,8 @@
                             }
                           },
                           {
-                            "startIndex": 4704,
-                            "endIndex": 4707,
+                            "startIndex": 4702,
+                            "endIndex": 4705,
                             "textRun": {
                               "content": "\"b\"",
                               "textStyle": {
@@ -3975,8 +4047,8 @@
                             }
                           },
                           {
-                            "startIndex": 4707,
-                            "endIndex": 4709,
+                            "startIndex": 4705,
+                            "endIndex": 4707,
                             "textRun": {
                               "content": ", ",
                               "textStyle": {
@@ -4006,8 +4078,8 @@
                             }
                           },
                           {
-                            "startIndex": 4709,
-                            "endIndex": 4712,
+                            "startIndex": 4707,
+                            "endIndex": 4710,
                             "textRun": {
                               "content": "\"c\"",
                               "textStyle": {
@@ -4037,8 +4109,8 @@
                             }
                           },
                           {
-                            "startIndex": 4712,
-                            "endIndex": 4715,
+                            "startIndex": 4710,
+                            "endIndex": 4713,
                             "textRun": {
                               "content": ")  ",
                               "textStyle": {
@@ -4068,8 +4140,8 @@
                             }
                           },
                           {
-                            "startIndex": 4715,
-                            "endIndex": 4731,
+                            "startIndex": 4713,
+                            "endIndex": 4729,
                             "textRun": {
                               "content": "// Immutable Set",
                               "textStyle": {
@@ -4099,8 +4171,8 @@
                             }
                           },
                           {
-                            "startIndex": 4731,
-                            "endIndex": 4736,
+                            "startIndex": 4729,
+                            "endIndex": 4734,
                             "textRun": {
                               "content": "\u000b    ",
                               "textStyle": {
@@ -4130,8 +4202,8 @@
                             }
                           },
                           {
-                            "startIndex": 4736,
-                            "endIndex": 4739,
+                            "startIndex": 4734,
+                            "endIndex": 4737,
                             "textRun": {
                               "content": "val",
                               "textStyle": {
@@ -4161,8 +4233,8 @@
                             }
                           },
                           {
-                            "startIndex": 4739,
-                            "endIndex": 4761,
+                            "startIndex": 4737,
+                            "endIndex": 4759,
                             "textRun": {
                               "content": " immutableMap = mapOf(",
                               "textStyle": {
@@ -4192,8 +4264,8 @@
                             }
                           },
                           {
-                            "startIndex": 4761,
-                            "endIndex": 4762,
+                            "startIndex": 4759,
+                            "endIndex": 4760,
                             "textRun": {
                               "content": "1",
                               "textStyle": {
@@ -4223,8 +4295,8 @@
                             }
                           },
                           {
-                            "startIndex": 4762,
-                            "endIndex": 4766,
+                            "startIndex": 4760,
+                            "endIndex": 4764,
                             "textRun": {
                               "content": " to ",
                               "textStyle": {
@@ -4254,8 +4326,8 @@
                             }
                           },
                           {
-                            "startIndex": 4766,
-                            "endIndex": 4771,
+                            "startIndex": 4764,
+                            "endIndex": 4769,
                             "textRun": {
                               "content": "\"one\"",
                               "textStyle": {
@@ -4285,8 +4357,8 @@
                             }
                           },
                           {
-                            "startIndex": 4771,
-                            "endIndex": 4773,
+                            "startIndex": 4769,
+                            "endIndex": 4771,
                             "textRun": {
                               "content": ", ",
                               "textStyle": {
@@ -4316,8 +4388,8 @@
                             }
                           },
                           {
-                            "startIndex": 4773,
-                            "endIndex": 4774,
+                            "startIndex": 4771,
+                            "endIndex": 4772,
                             "textRun": {
                               "content": "2",
                               "textStyle": {
@@ -4347,8 +4419,8 @@
                             }
                           },
                           {
-                            "startIndex": 4774,
-                            "endIndex": 4778,
+                            "startIndex": 4772,
+                            "endIndex": 4776,
                             "textRun": {
                               "content": " to ",
                               "textStyle": {
@@ -4378,8 +4450,8 @@
                             }
                           },
                           {
-                            "startIndex": 4778,
-                            "endIndex": 4783,
+                            "startIndex": 4776,
+                            "endIndex": 4781,
                             "textRun": {
                               "content": "\"two\"",
                               "textStyle": {
@@ -4409,8 +4481,8 @@
                             }
                           },
                           {
-                            "startIndex": 4783,
-                            "endIndex": 4785,
+                            "startIndex": 4781,
+                            "endIndex": 4783,
                             "textRun": {
                               "content": ", ",
                               "textStyle": {
@@ -4440,8 +4512,8 @@
                             }
                           },
                           {
-                            "startIndex": 4785,
-                            "endIndex": 4786,
+                            "startIndex": 4783,
+                            "endIndex": 4784,
                             "textRun": {
                               "content": "3",
                               "textStyle": {
@@ -4471,8 +4543,8 @@
                             }
                           },
                           {
-                            "startIndex": 4786,
-                            "endIndex": 4790,
+                            "startIndex": 4784,
+                            "endIndex": 4788,
                             "textRun": {
                               "content": " to ",
                               "textStyle": {
@@ -4502,8 +4574,8 @@
                             }
                           },
                           {
-                            "startIndex": 4790,
-                            "endIndex": 4797,
+                            "startIndex": 4788,
+                            "endIndex": 4795,
                             "textRun": {
                               "content": "\"three\"",
                               "textStyle": {
@@ -4533,8 +4605,8 @@
                             }
                           },
                           {
-                            "startIndex": 4797,
-                            "endIndex": 4800,
+                            "startIndex": 4795,
+                            "endIndex": 4798,
                             "textRun": {
                               "content": ")  ",
                               "textStyle": {
@@ -4564,8 +4636,8 @@
                             }
                           },
                           {
-                            "startIndex": 4800,
-                            "endIndex": 4816,
+                            "startIndex": 4798,
+                            "endIndex": 4814,
                             "textRun": {
                               "content": "// Immutable Map",
                               "textStyle": {
@@ -4595,8 +4667,8 @@
                             }
                           },
                           {
-                            "startIndex": 4816,
-                            "endIndex": 4830,
+                            "startIndex": 4814,
+                            "endIndex": 4828,
                             "textRun": {
                               "content": "\u000b\u000b    println(",
                               "textStyle": {
@@ -4626,8 +4698,8 @@
                             }
                           },
                           {
-                            "startIndex": 4830,
-                            "endIndex": 4847,
+                            "startIndex": 4828,
+                            "endIndex": 4845,
                             "textRun": {
                               "content": "\"Immutable List:\"",
                               "textStyle": {
@@ -4657,8 +4729,8 @@
                             }
                           },
                           {
-                            "startIndex": 4847,
-                            "endIndex": 4853,
+                            "startIndex": 4845,
+                            "endIndex": 4851,
                             "textRun": {
                               "content": ")\u000b    ",
                               "textStyle": {
@@ -4688,8 +4760,8 @@
                             }
                           },
                           {
-                            "startIndex": 4853,
-                            "endIndex": 4856,
+                            "startIndex": 4851,
+                            "endIndex": 4854,
                             "textRun": {
                               "content": "for",
                               "textStyle": {
@@ -4719,8 +4791,8 @@
                             }
                           },
                           {
-                            "startIndex": 4856,
-                            "endIndex": 4866,
+                            "startIndex": 4854,
+                            "endIndex": 4864,
                             "textRun": {
                               "content": " (element ",
                               "textStyle": {
@@ -4750,8 +4822,8 @@
                             }
                           },
                           {
-                            "startIndex": 4866,
-                            "endIndex": 4868,
+                            "startIndex": 4864,
+                            "endIndex": 4866,
                             "textRun": {
                               "content": "in",
                               "textStyle": {
@@ -4781,8 +4853,8 @@
                             }
                           },
                           {
-                            "startIndex": 4868,
-                            "endIndex": 4930,
+                            "startIndex": 4866,
+                            "endIndex": 4928,
                             "textRun": {
                               "content": " immutableList) {\u000b        println(element)\u000b    }\u000b\u000b    println(",
                               "textStyle": {
@@ -4812,8 +4884,8 @@
                             }
                           },
                           {
-                            "startIndex": 4930,
-                            "endIndex": 4946,
+                            "startIndex": 4928,
+                            "endIndex": 4944,
                             "textRun": {
                               "content": "\"Immutable Set:\"",
                               "textStyle": {
@@ -4843,8 +4915,8 @@
                             }
                           },
                           {
-                            "startIndex": 4946,
-                            "endIndex": 4952,
+                            "startIndex": 4944,
+                            "endIndex": 4950,
                             "textRun": {
                               "content": ")\u000b    ",
                               "textStyle": {
@@ -4874,8 +4946,8 @@
                             }
                           },
                           {
-                            "startIndex": 4952,
-                            "endIndex": 4955,
+                            "startIndex": 4950,
+                            "endIndex": 4953,
                             "textRun": {
                               "content": "for",
                               "textStyle": {
@@ -4905,8 +4977,8 @@
                             }
                           },
                           {
-                            "startIndex": 4955,
-                            "endIndex": 4965,
+                            "startIndex": 4953,
+                            "endIndex": 4963,
                             "textRun": {
                               "content": " (element ",
                               "textStyle": {
@@ -4936,8 +5008,8 @@
                             }
                           },
                           {
-                            "startIndex": 4965,
-                            "endIndex": 4967,
+                            "startIndex": 4963,
+                            "endIndex": 4965,
                             "textRun": {
                               "content": "in",
                               "textStyle": {
@@ -4967,8 +5039,8 @@
                             }
                           },
                           {
-                            "startIndex": 4967,
-                            "endIndex": 5028,
+                            "startIndex": 4965,
+                            "endIndex": 5026,
                             "textRun": {
                               "content": " immutableSet) {\u000b        println(element)\u000b    }\u000b\u000b    println(",
                               "textStyle": {
@@ -4998,8 +5070,8 @@
                             }
                           },
                           {
-                            "startIndex": 5028,
-                            "endIndex": 5044,
+                            "startIndex": 5026,
+                            "endIndex": 5042,
                             "textRun": {
                               "content": "\"Immutable Map:\"",
                               "textStyle": {
@@ -5029,8 +5101,8 @@
                             }
                           },
                           {
-                            "startIndex": 5044,
-                            "endIndex": 5050,
+                            "startIndex": 5042,
+                            "endIndex": 5048,
                             "textRun": {
                               "content": ")\u000b    ",
                               "textStyle": {
@@ -5060,8 +5132,8 @@
                             }
                           },
                           {
-                            "startIndex": 5050,
-                            "endIndex": 5053,
+                            "startIndex": 5048,
+                            "endIndex": 5051,
                             "textRun": {
                               "content": "for",
                               "textStyle": {
@@ -5091,8 +5163,8 @@
                             }
                           },
                           {
-                            "startIndex": 5053,
-                            "endIndex": 5068,
+                            "startIndex": 5051,
+                            "endIndex": 5066,
                             "textRun": {
                               "content": " ((key, value) ",
                               "textStyle": {
@@ -5122,8 +5194,8 @@
                             }
                           },
                           {
-                            "startIndex": 5068,
-                            "endIndex": 5070,
+                            "startIndex": 5066,
+                            "endIndex": 5068,
                             "textRun": {
                               "content": "in",
                               "textStyle": {
@@ -5153,8 +5225,8 @@
                             }
                           },
                           {
-                            "startIndex": 5070,
-                            "endIndex": 5103,
+                            "startIndex": 5068,
+                            "endIndex": 5101,
                             "textRun": {
                               "content": " immutableMap) {\u000b        println(",
                               "textStyle": {
@@ -5184,8 +5256,8 @@
                             }
                           },
                           {
-                            "startIndex": 5103,
-                            "endIndex": 5109,
+                            "startIndex": 5101,
+                            "endIndex": 5107,
                             "textRun": {
                               "content": "\"Key: ",
                               "textStyle": {
@@ -5215,8 +5287,8 @@
                             }
                           },
                           {
-                            "startIndex": 5109,
-                            "endIndex": 5113,
+                            "startIndex": 5107,
+                            "endIndex": 5111,
                             "textRun": {
                               "content": "$key",
                               "textStyle": {
@@ -5246,8 +5318,8 @@
                             }
                           },
                           {
-                            "startIndex": 5113,
-                            "endIndex": 5122,
+                            "startIndex": 5111,
+                            "endIndex": 5120,
                             "textRun": {
                               "content": ", Value: ",
                               "textStyle": {
@@ -5277,8 +5349,8 @@
                             }
                           },
                           {
-                            "startIndex": 5122,
-                            "endIndex": 5128,
+                            "startIndex": 5120,
+                            "endIndex": 5126,
                             "textRun": {
                               "content": "$value",
                               "textStyle": {
@@ -5308,8 +5380,8 @@
                             }
                           },
                           {
-                            "startIndex": 5128,
-                            "endIndex": 5129,
+                            "startIndex": 5126,
+                            "endIndex": 5127,
                             "textRun": {
                               "content": "\"",
                               "textStyle": {
@@ -5339,8 +5411,8 @@
                             }
                           },
                           {
-                            "startIndex": 5129,
-                            "endIndex": 5142,
+                            "startIndex": 5127,
+                            "endIndex": 5140,
                             "textRun": {
                               "content": ")\u000b    }\u000b\u000b    ",
                               "textStyle": {
@@ -5370,8 +5442,8 @@
                             }
                           },
                           {
-                            "startIndex": 5142,
-                            "endIndex": 5218,
+                            "startIndex": 5140,
+                            "endIndex": 5216,
                             "textRun": {
                               "content": "// Trying to modify immutable collections will result in a compilation error",
                               "textStyle": {
@@ -5401,8 +5473,8 @@
                             }
                           },
                           {
-                            "startIndex": 5218,
-                            "endIndex": 5223,
+                            "startIndex": 5216,
+                            "endIndex": 5221,
                             "textRun": {
                               "content": "\u000b    ",
                               "textStyle": {
@@ -5432,8 +5504,8 @@
                             }
                           },
                           {
-                            "startIndex": 5223,
-                            "endIndex": 5288,
+                            "startIndex": 5221,
+                            "endIndex": 5286,
                             "textRun": {
                               "content": "// Uncommenting the following lines will cause compilation errors",
                               "textStyle": {
@@ -5463,8 +5535,8 @@
                             }
                           },
                           {
-                            "startIndex": 5288,
-                            "endIndex": 5294,
+                            "startIndex": 5286,
+                            "endIndex": 5292,
                             "textRun": {
                               "content": "\u000b\u000b    ",
                               "textStyle": {
@@ -5494,8 +5566,8 @@
                             }
                           },
                           {
-                            "startIndex": 5294,
-                            "endIndex": 5317,
+                            "startIndex": 5292,
+                            "endIndex": 5315,
                             "textRun": {
                               "content": "// immutableList.add(4)",
                               "textStyle": {
@@ -5525,8 +5597,8 @@
                             }
                           },
                           {
-                            "startIndex": 5317,
-                            "endIndex": 5322,
+                            "startIndex": 5315,
+                            "endIndex": 5320,
                             "textRun": {
                               "content": "\u000b    ",
                               "textStyle": {
@@ -5556,8 +5628,8 @@
                             }
                           },
                           {
-                            "startIndex": 5322,
-                            "endIndex": 5346,
+                            "startIndex": 5320,
+                            "endIndex": 5344,
                             "textRun": {
                               "content": "// immutableSet.add(\"d\")",
                               "textStyle": {
@@ -5587,8 +5659,8 @@
                             }
                           },
                           {
-                            "startIndex": 5346,
-                            "endIndex": 5351,
+                            "startIndex": 5344,
+                            "endIndex": 5349,
                             "textRun": {
                               "content": "\u000b    ",
                               "textStyle": {
@@ -5618,8 +5690,8 @@
                             }
                           },
                           {
-                            "startIndex": 5351,
-                            "endIndex": 5378,
+                            "startIndex": 5349,
+                            "endIndex": 5376,
                             "textRun": {
                               "content": "// immutableMap[4] = \"four\"",
                               "textStyle": {
@@ -5649,8 +5721,8 @@
                             }
                           },
                           {
-                            "startIndex": 5378,
-                            "endIndex": 5384,
+                            "startIndex": 5376,
+                            "endIndex": 5382,
                             "textRun": {
                               "content": "\u000b\u000b    ",
                               "textStyle": {
@@ -5680,8 +5752,8 @@
                             }
                           },
                           {
-                            "startIndex": 5384,
-                            "endIndex": 5406,
+                            "startIndex": 5382,
+                            "endIndex": 5404,
                             "textRun": {
                               "content": "// Mutable Collections",
                               "textStyle": {
@@ -5711,8 +5783,8 @@
                             }
                           },
                           {
-                            "startIndex": 5406,
-                            "endIndex": 5411,
+                            "startIndex": 5404,
+                            "endIndex": 5409,
                             "textRun": {
                               "content": "\u000b    ",
                               "textStyle": {
@@ -5742,8 +5814,8 @@
                             }
                           },
                           {
-                            "startIndex": 5411,
-                            "endIndex": 5414,
+                            "startIndex": 5409,
+                            "endIndex": 5412,
                             "textRun": {
                               "content": "val",
                               "textStyle": {
@@ -5773,8 +5845,8 @@
                             }
                           },
                           {
-                            "startIndex": 5414,
-                            "endIndex": 5443,
+                            "startIndex": 5412,
+                            "endIndex": 5441,
                             "textRun": {
                               "content": " mutableList = mutableListOf(",
                               "textStyle": {
@@ -5804,8 +5876,8 @@
                             }
                           },
                           {
-                            "startIndex": 5443,
-                            "endIndex": 5444,
+                            "startIndex": 5441,
+                            "endIndex": 5442,
                             "textRun": {
                               "content": "1",
                               "textStyle": {
@@ -5835,8 +5907,8 @@
                             }
                           },
                           {
-                            "startIndex": 5444,
-                            "endIndex": 5446,
+                            "startIndex": 5442,
+                            "endIndex": 5444,
                             "textRun": {
                               "content": ", ",
                               "textStyle": {
@@ -5866,8 +5938,8 @@
                             }
                           },
                           {
-                            "startIndex": 5446,
-                            "endIndex": 5447,
+                            "startIndex": 5444,
+                            "endIndex": 5445,
                             "textRun": {
                               "content": "2",
                               "textStyle": {
@@ -5897,8 +5969,8 @@
                             }
                           },
                           {
-                            "startIndex": 5447,
-                            "endIndex": 5449,
+                            "startIndex": 5445,
+                            "endIndex": 5447,
                             "textRun": {
                               "content": ", ",
                               "textStyle": {
@@ -5928,8 +6000,8 @@
                             }
                           },
                           {
-                            "startIndex": 5449,
-                            "endIndex": 5450,
+                            "startIndex": 5447,
+                            "endIndex": 5448,
                             "textRun": {
                               "content": "3",
                               "textStyle": {
@@ -5959,8 +6031,8 @@
                             }
                           },
                           {
-                            "startIndex": 5450,
-                            "endIndex": 5453,
+                            "startIndex": 5448,
+                            "endIndex": 5451,
                             "textRun": {
                               "content": ")  ",
                               "textStyle": {
@@ -5990,8 +6062,8 @@
                             }
                           },
                           {
-                            "startIndex": 5453,
-                            "endIndex": 5468,
+                            "startIndex": 5451,
+                            "endIndex": 5466,
                             "textRun": {
                               "content": "// Mutable List",
                               "textStyle": {
@@ -6021,8 +6093,8 @@
                             }
                           },
                           {
-                            "startIndex": 5468,
-                            "endIndex": 5473,
+                            "startIndex": 5466,
+                            "endIndex": 5471,
                             "textRun": {
                               "content": "\u000b    ",
                               "textStyle": {
@@ -6052,8 +6124,8 @@
                             }
                           },
                           {
-                            "startIndex": 5473,
-                            "endIndex": 5476,
+                            "startIndex": 5471,
+                            "endIndex": 5474,
                             "textRun": {
                               "content": "val",
                               "textStyle": {
@@ -6083,8 +6155,8 @@
                             }
                           },
                           {
-                            "startIndex": 5476,
-                            "endIndex": 5503,
+                            "startIndex": 5474,
+                            "endIndex": 5501,
                             "textRun": {
                               "content": " mutableSet = mutableSetOf(",
                               "textStyle": {
@@ -6114,8 +6186,8 @@
                             }
                           },
                           {
-                            "startIndex": 5503,
-                            "endIndex": 5506,
+                            "startIndex": 5501,
+                            "endIndex": 5504,
                             "textRun": {
                               "content": "\"a\"",
                               "textStyle": {
@@ -6145,8 +6217,8 @@
                             }
                           },
                           {
-                            "startIndex": 5506,
-                            "endIndex": 5508,
+                            "startIndex": 5504,
+                            "endIndex": 5506,
                             "textRun": {
                               "content": ", ",
                               "textStyle": {
@@ -6176,8 +6248,8 @@
                             }
                           },
                           {
-                            "startIndex": 5508,
-                            "endIndex": 5511,
+                            "startIndex": 5506,
+                            "endIndex": 5509,
                             "textRun": {
                               "content": "\"b\"",
                               "textStyle": {
@@ -6207,8 +6279,8 @@
                             }
                           },
                           {
-                            "startIndex": 5511,
-                            "endIndex": 5513,
+                            "startIndex": 5509,
+                            "endIndex": 5511,
                             "textRun": {
                               "content": ", ",
                               "textStyle": {
@@ -6238,8 +6310,8 @@
                             }
                           },
                           {
-                            "startIndex": 5513,
-                            "endIndex": 5516,
+                            "startIndex": 5511,
+                            "endIndex": 5514,
                             "textRun": {
                               "content": "\"c\"",
                               "textStyle": {
@@ -6269,8 +6341,8 @@
                             }
                           },
                           {
-                            "startIndex": 5516,
-                            "endIndex": 5519,
+                            "startIndex": 5514,
+                            "endIndex": 5517,
                             "textRun": {
                               "content": ")  ",
                               "textStyle": {
@@ -6300,8 +6372,8 @@
                             }
                           },
                           {
-                            "startIndex": 5519,
-                            "endIndex": 5533,
+                            "startIndex": 5517,
+                            "endIndex": 5531,
                             "textRun": {
                               "content": "// Mutable Set",
                               "textStyle": {
@@ -6331,8 +6403,8 @@
                             }
                           },
                           {
-                            "startIndex": 5533,
-                            "endIndex": 5538,
+                            "startIndex": 5531,
+                            "endIndex": 5536,
                             "textRun": {
                               "content": "\u000b    ",
                               "textStyle": {
@@ -6362,8 +6434,8 @@
                             }
                           },
                           {
-                            "startIndex": 5538,
-                            "endIndex": 5541,
+                            "startIndex": 5536,
+                            "endIndex": 5539,
                             "textRun": {
                               "content": "val",
                               "textStyle": {
@@ -6393,8 +6465,8 @@
                             }
                           },
                           {
-                            "startIndex": 5541,
-                            "endIndex": 5568,
+                            "startIndex": 5539,
+                            "endIndex": 5566,
                             "textRun": {
                               "content": " mutableMap = mutableMapOf(",
                               "textStyle": {
@@ -6424,8 +6496,8 @@
                             }
                           },
                           {
-                            "startIndex": 5568,
-                            "endIndex": 5569,
+                            "startIndex": 5566,
+                            "endIndex": 5567,
                             "textRun": {
                               "content": "1",
                               "textStyle": {
@@ -6455,8 +6527,8 @@
                             }
                           },
                           {
-                            "startIndex": 5569,
-                            "endIndex": 5573,
+                            "startIndex": 5567,
+                            "endIndex": 5571,
                             "textRun": {
                               "content": " to ",
                               "textStyle": {
@@ -6486,8 +6558,8 @@
                             }
                           },
                           {
-                            "startIndex": 5573,
-                            "endIndex": 5578,
+                            "startIndex": 5571,
+                            "endIndex": 5576,
                             "textRun": {
                               "content": "\"one\"",
                               "textStyle": {
@@ -6517,8 +6589,8 @@
                             }
                           },
                           {
-                            "startIndex": 5578,
-                            "endIndex": 5580,
+                            "startIndex": 5576,
+                            "endIndex": 5578,
                             "textRun": {
                               "content": ", ",
                               "textStyle": {
@@ -6548,8 +6620,8 @@
                             }
                           },
                           {
-                            "startIndex": 5580,
-                            "endIndex": 5581,
+                            "startIndex": 5578,
+                            "endIndex": 5579,
                             "textRun": {
                               "content": "2",
                               "textStyle": {
@@ -6579,8 +6651,8 @@
                             }
                           },
                           {
-                            "startIndex": 5581,
-                            "endIndex": 5585,
+                            "startIndex": 5579,
+                            "endIndex": 5583,
                             "textRun": {
                               "content": " to ",
                               "textStyle": {
@@ -6610,8 +6682,8 @@
                             }
                           },
                           {
-                            "startIndex": 5585,
-                            "endIndex": 5590,
+                            "startIndex": 5583,
+                            "endIndex": 5588,
                             "textRun": {
                               "content": "\"two\"",
                               "textStyle": {
@@ -6641,8 +6713,8 @@
                             }
                           },
                           {
-                            "startIndex": 5590,
-                            "endIndex": 5592,
+                            "startIndex": 5588,
+                            "endIndex": 5590,
                             "textRun": {
                               "content": ", ",
                               "textStyle": {
@@ -6672,8 +6744,8 @@
                             }
                           },
                           {
-                            "startIndex": 5592,
-                            "endIndex": 5593,
+                            "startIndex": 5590,
+                            "endIndex": 5591,
                             "textRun": {
                               "content": "3",
                               "textStyle": {
@@ -6703,8 +6775,8 @@
                             }
                           },
                           {
-                            "startIndex": 5593,
-                            "endIndex": 5597,
+                            "startIndex": 5591,
+                            "endIndex": 5595,
                             "textRun": {
                               "content": " to ",
                               "textStyle": {
@@ -6734,8 +6806,8 @@
                             }
                           },
                           {
-                            "startIndex": 5597,
-                            "endIndex": 5604,
+                            "startIndex": 5595,
+                            "endIndex": 5602,
                             "textRun": {
                               "content": "\"three\"",
                               "textStyle": {
@@ -6765,8 +6837,8 @@
                             }
                           },
                           {
-                            "startIndex": 5604,
-                            "endIndex": 5607,
+                            "startIndex": 5602,
+                            "endIndex": 5605,
                             "textRun": {
                               "content": ")  ",
                               "textStyle": {
@@ -6796,8 +6868,8 @@
                             }
                           },
                           {
-                            "startIndex": 5607,
-                            "endIndex": 5621,
+                            "startIndex": 5605,
+                            "endIndex": 5619,
                             "textRun": {
                               "content": "// Mutable Map",
                               "textStyle": {
@@ -6827,8 +6899,8 @@
                             }
                           },
                           {
-                            "startIndex": 5621,
-                            "endIndex": 5635,
+                            "startIndex": 5619,
+                            "endIndex": 5633,
                             "textRun": {
                               "content": "\u000b\u000b    println(",
                               "textStyle": {
@@ -6858,8 +6930,8 @@
                             }
                           },
                           {
-                            "startIndex": 5635,
-                            "endIndex": 5650,
+                            "startIndex": 5633,
+                            "endIndex": 5648,
                             "textRun": {
                               "content": "\"Mutable List:\"",
                               "textStyle": {
@@ -6889,8 +6961,8 @@
                             }
                           },
                           {
-                            "startIndex": 5650,
-                            "endIndex": 5656,
+                            "startIndex": 5648,
+                            "endIndex": 5654,
                             "textRun": {
                               "content": ")\u000b    ",
                               "textStyle": {
@@ -6920,8 +6992,8 @@
                             }
                           },
                           {
-                            "startIndex": 5656,
-                            "endIndex": 5659,
+                            "startIndex": 5654,
+                            "endIndex": 5657,
                             "textRun": {
                               "content": "for",
                               "textStyle": {
@@ -6951,8 +7023,8 @@
                             }
                           },
                           {
-                            "startIndex": 5659,
-                            "endIndex": 5669,
+                            "startIndex": 5657,
+                            "endIndex": 5667,
                             "textRun": {
                               "content": " (element ",
                               "textStyle": {
@@ -6982,8 +7054,8 @@
                             }
                           },
                           {
-                            "startIndex": 5669,
-                            "endIndex": 5671,
+                            "startIndex": 5667,
+                            "endIndex": 5669,
                             "textRun": {
                               "content": "in",
                               "textStyle": {
@@ -7013,8 +7085,8 @@
                             }
                           },
                           {
-                            "startIndex": 5671,
-                            "endIndex": 5731,
+                            "startIndex": 5669,
+                            "endIndex": 5729,
                             "textRun": {
                               "content": " mutableList) {\u000b        println(element)\u000b    }\u000b\u000b    println(",
                               "textStyle": {
@@ -7044,8 +7116,8 @@
                             }
                           },
                           {
-                            "startIndex": 5731,
-                            "endIndex": 5745,
+                            "startIndex": 5729,
+                            "endIndex": 5743,
                             "textRun": {
                               "content": "\"Mutable Set:\"",
                               "textStyle": {
@@ -7075,8 +7147,8 @@
                             }
                           },
                           {
-                            "startIndex": 5745,
-                            "endIndex": 5751,
+                            "startIndex": 5743,
+                            "endIndex": 5749,
                             "textRun": {
                               "content": ")\u000b    ",
                               "textStyle": {
@@ -7106,8 +7178,8 @@
                             }
                           },
                           {
-                            "startIndex": 5751,
-                            "endIndex": 5754,
+                            "startIndex": 5749,
+                            "endIndex": 5752,
                             "textRun": {
                               "content": "for",
                               "textStyle": {
@@ -7137,8 +7209,8 @@
                             }
                           },
                           {
-                            "startIndex": 5754,
-                            "endIndex": 5764,
+                            "startIndex": 5752,
+                            "endIndex": 5762,
                             "textRun": {
                               "content": " (element ",
                               "textStyle": {
@@ -7168,8 +7240,8 @@
                             }
                           },
                           {
-                            "startIndex": 5764,
-                            "endIndex": 5766,
+                            "startIndex": 5762,
+                            "endIndex": 5764,
                             "textRun": {
                               "content": "in",
                               "textStyle": {
@@ -7199,8 +7271,8 @@
                             }
                           },
                           {
-                            "startIndex": 5766,
-                            "endIndex": 5825,
+                            "startIndex": 5764,
+                            "endIndex": 5823,
                             "textRun": {
                               "content": " mutableSet) {\u000b        println(element)\u000b    }\u000b\u000b    println(",
                               "textStyle": {
@@ -7230,8 +7302,8 @@
                             }
                           },
                           {
-                            "startIndex": 5825,
-                            "endIndex": 5839,
+                            "startIndex": 5823,
+                            "endIndex": 5837,
                             "textRun": {
                               "content": "\"Mutable Map:\"",
                               "textStyle": {
@@ -7261,8 +7333,8 @@
                             }
                           },
                           {
-                            "startIndex": 5839,
-                            "endIndex": 5845,
+                            "startIndex": 5837,
+                            "endIndex": 5843,
                             "textRun": {
                               "content": ")\u000b    ",
                               "textStyle": {
@@ -7292,8 +7364,8 @@
                             }
                           },
                           {
-                            "startIndex": 5845,
-                            "endIndex": 5848,
+                            "startIndex": 5843,
+                            "endIndex": 5846,
                             "textRun": {
                               "content": "for",
                               "textStyle": {
@@ -7323,8 +7395,8 @@
                             }
                           },
                           {
-                            "startIndex": 5848,
-                            "endIndex": 5863,
+                            "startIndex": 5846,
+                            "endIndex": 5861,
                             "textRun": {
                               "content": " ((key, value) ",
                               "textStyle": {
@@ -7354,8 +7426,8 @@
                             }
                           },
                           {
-                            "startIndex": 5863,
-                            "endIndex": 5865,
+                            "startIndex": 5861,
+                            "endIndex": 5863,
                             "textRun": {
                               "content": "in",
                               "textStyle": {
@@ -7385,8 +7457,8 @@
                             }
                           },
                           {
-                            "startIndex": 5865,
-                            "endIndex": 5896,
+                            "startIndex": 5863,
+                            "endIndex": 5894,
                             "textRun": {
                               "content": " mutableMap) {\u000b        println(",
                               "textStyle": {
@@ -7416,8 +7488,8 @@
                             }
                           },
                           {
-                            "startIndex": 5896,
-                            "endIndex": 5902,
+                            "startIndex": 5894,
+                            "endIndex": 5900,
                             "textRun": {
                               "content": "\"Key: ",
                               "textStyle": {
@@ -7447,8 +7519,8 @@
                             }
                           },
                           {
-                            "startIndex": 5902,
-                            "endIndex": 5906,
+                            "startIndex": 5900,
+                            "endIndex": 5904,
                             "textRun": {
                               "content": "$key",
                               "textStyle": {
@@ -7478,8 +7550,8 @@
                             }
                           },
                           {
-                            "startIndex": 5906,
-                            "endIndex": 5915,
+                            "startIndex": 5904,
+                            "endIndex": 5913,
                             "textRun": {
                               "content": ", Value: ",
                               "textStyle": {
@@ -7509,8 +7581,8 @@
                             }
                           },
                           {
-                            "startIndex": 5915,
-                            "endIndex": 5921,
+                            "startIndex": 5913,
+                            "endIndex": 5919,
                             "textRun": {
                               "content": "$value",
                               "textStyle": {
@@ -7540,8 +7612,8 @@
                             }
                           },
                           {
-                            "startIndex": 5921,
-                            "endIndex": 5922,
+                            "startIndex": 5919,
+                            "endIndex": 5920,
                             "textRun": {
                               "content": "\"",
                               "textStyle": {
@@ -7571,8 +7643,8 @@
                             }
                           },
                           {
-                            "startIndex": 5922,
-                            "endIndex": 5935,
+                            "startIndex": 5920,
+                            "endIndex": 5933,
                             "textRun": {
                               "content": ")\u000b    }\u000b\u000b    ",
                               "textStyle": {
@@ -7602,8 +7674,8 @@
                             }
                           },
                           {
-                            "startIndex": 5935,
-                            "endIndex": 5978,
+                            "startIndex": 5933,
+                            "endIndex": 5976,
                             "textRun": {
                               "content": "// Modifying mutable collections is allowed",
                               "textStyle": {
@@ -7633,8 +7705,8 @@
                             }
                           },
                           {
-                            "startIndex": 5978,
-                            "endIndex": 5999,
+                            "startIndex": 5976,
+                            "endIndex": 5997,
                             "textRun": {
                               "content": "\u000b    mutableList.add(",
                               "textStyle": {
@@ -7664,8 +7736,8 @@
                             }
                           },
                           {
-                            "startIndex": 5999,
-                            "endIndex": 6000,
+                            "startIndex": 5997,
+                            "endIndex": 5998,
                             "textRun": {
                               "content": "4",
                               "textStyle": {
@@ -7695,8 +7767,8 @@
                             }
                           },
                           {
-                            "startIndex": 6000,
-                            "endIndex": 6021,
+                            "startIndex": 5998,
+                            "endIndex": 6019,
                             "textRun": {
                               "content": ")\u000b    mutableSet.add(",
                               "textStyle": {
@@ -7726,8 +7798,8 @@
                             }
                           },
                           {
-                            "startIndex": 6021,
-                            "endIndex": 6024,
+                            "startIndex": 6019,
+                            "endIndex": 6022,
                             "textRun": {
                               "content": "\"d\"",
                               "textStyle": {
@@ -7757,8 +7829,8 @@
                             }
                           },
                           {
-                            "startIndex": 6024,
-                            "endIndex": 6041,
+                            "startIndex": 6022,
+                            "endIndex": 6039,
                             "textRun": {
                               "content": ")\u000b    mutableMap[",
                               "textStyle": {
@@ -7788,8 +7860,8 @@
                             }
                           },
                           {
-                            "startIndex": 6041,
-                            "endIndex": 6042,
+                            "startIndex": 6039,
+                            "endIndex": 6040,
                             "textRun": {
                               "content": "4",
                               "textStyle": {
@@ -7819,8 +7891,8 @@
                             }
                           },
                           {
-                            "startIndex": 6042,
-                            "endIndex": 6046,
+                            "startIndex": 6040,
+                            "endIndex": 6044,
                             "textRun": {
                               "content": "] = ",
                               "textStyle": {
@@ -7850,8 +7922,8 @@
                             }
                           },
                           {
-                            "startIndex": 6046,
-                            "endIndex": 6052,
+                            "startIndex": 6044,
+                            "endIndex": 6050,
                             "textRun": {
                               "content": "\"four\"",
                               "textStyle": {
@@ -7881,8 +7953,8 @@
                             }
                           },
                           {
-                            "startIndex": 6052,
-                            "endIndex": 6066,
+                            "startIndex": 6050,
+                            "endIndex": 6064,
                             "textRun": {
                               "content": "\u000b\u000b    println(",
                               "textStyle": {
@@ -7912,8 +7984,8 @@
                             }
                           },
                           {
-                            "startIndex": 6066,
-                            "endIndex": 6090,
+                            "startIndex": 6064,
+                            "endIndex": 6088,
                             "textRun": {
                               "content": "\"Modified Mutable List:\"",
                               "textStyle": {
@@ -7943,8 +8015,8 @@
                             }
                           },
                           {
-                            "startIndex": 6090,
-                            "endIndex": 6096,
+                            "startIndex": 6088,
+                            "endIndex": 6094,
                             "textRun": {
                               "content": ")\u000b    ",
                               "textStyle": {
@@ -7974,8 +8046,8 @@
                             }
                           },
                           {
-                            "startIndex": 6096,
-                            "endIndex": 6099,
+                            "startIndex": 6094,
+                            "endIndex": 6097,
                             "textRun": {
                               "content": "for",
                               "textStyle": {
@@ -8005,8 +8077,8 @@
                             }
                           },
                           {
-                            "startIndex": 6099,
-                            "endIndex": 6109,
+                            "startIndex": 6097,
+                            "endIndex": 6107,
                             "textRun": {
                               "content": " (element ",
                               "textStyle": {
@@ -8036,8 +8108,8 @@
                             }
                           },
                           {
-                            "startIndex": 6109,
-                            "endIndex": 6111,
+                            "startIndex": 6107,
+                            "endIndex": 6109,
                             "textRun": {
                               "content": "in",
                               "textStyle": {
@@ -8067,8 +8139,8 @@
                             }
                           },
                           {
-                            "startIndex": 6111,
-                            "endIndex": 6182,
+                            "startIndex": 6109,
+                            "endIndex": 6180,
                             "textRun": {
                               "content": " mutableList) {\u000b        println(element)\u000b    }\u000b\u000b    mutableList.remove(",
                               "textStyle": {
@@ -8098,8 +8170,8 @@
                             }
                           },
                           {
-                            "startIndex": 6182,
-                            "endIndex": 6183,
+                            "startIndex": 6180,
+                            "endIndex": 6181,
                             "textRun": {
                               "content": "2",
                               "textStyle": {
@@ -8129,8 +8201,8 @@
                             }
                           },
                           {
-                            "startIndex": 6183,
-                            "endIndex": 6186,
+                            "startIndex": 6181,
+                            "endIndex": 6184,
                             "textRun": {
                               "content": ")  ",
                               "textStyle": {
@@ -8160,8 +8232,8 @@
                             }
                           },
                           {
-                            "startIndex": 6186,
-                            "endIndex": 6225,
+                            "startIndex": 6184,
+                            "endIndex": 6223,
                             "textRun": {
                               "content": "// Remove element from the mutable list",
                               "textStyle": {
@@ -8191,8 +8263,8 @@
                             }
                           },
                           {
-                            "startIndex": 6225,
-                            "endIndex": 6238,
+                            "startIndex": 6223,
+                            "endIndex": 6236,
                             "textRun": {
                               "content": "\u000b    println(",
                               "textStyle": {
@@ -8222,8 +8294,8 @@
                             }
                           },
                           {
-                            "startIndex": 6238,
-                            "endIndex": 6285,
+                            "startIndex": 6236,
+                            "endIndex": 6283,
                             "textRun": {
                               "content": "\"Modified Mutable List after removing element:\"",
                               "textStyle": {
@@ -8253,8 +8325,8 @@
                             }
                           },
                           {
-                            "startIndex": 6285,
-                            "endIndex": 6291,
+                            "startIndex": 6283,
+                            "endIndex": 6289,
                             "textRun": {
                               "content": ")\u000b    ",
                               "textStyle": {
@@ -8284,8 +8356,8 @@
                             }
                           },
                           {
-                            "startIndex": 6291,
-                            "endIndex": 6294,
+                            "startIndex": 6289,
+                            "endIndex": 6292,
                             "textRun": {
                               "content": "for",
                               "textStyle": {
@@ -8315,8 +8387,8 @@
                             }
                           },
                           {
-                            "startIndex": 6294,
-                            "endIndex": 6304,
+                            "startIndex": 6292,
+                            "endIndex": 6302,
                             "textRun": {
                               "content": " (element ",
                               "textStyle": {
@@ -8346,8 +8418,8 @@
                             }
                           },
                           {
-                            "startIndex": 6304,
-                            "endIndex": 6306,
+                            "startIndex": 6302,
+                            "endIndex": 6304,
                             "textRun": {
                               "content": "in",
                               "textStyle": {
@@ -8377,8 +8449,8 @@
                             }
                           },
                           {
-                            "startIndex": 6306,
-                            "endIndex": 6376,
+                            "startIndex": 6304,
+                            "endIndex": 6374,
                             "textRun": {
                               "content": " mutableList) {\u000b        println(element)\u000b    }\u000b\u000b    mutableSet.remove(",
                               "textStyle": {
@@ -8408,8 +8480,8 @@
                             }
                           },
                           {
-                            "startIndex": 6376,
-                            "endIndex": 6379,
+                            "startIndex": 6374,
+                            "endIndex": 6377,
                             "textRun": {
                               "content": "\"b\"",
                               "textStyle": {
@@ -8439,8 +8511,8 @@
                             }
                           },
                           {
-                            "startIndex": 6379,
-                            "endIndex": 6382,
+                            "startIndex": 6377,
+                            "endIndex": 6380,
                             "textRun": {
                               "content": ")  ",
                               "textStyle": {
@@ -8470,8 +8542,8 @@
                             }
                           },
                           {
-                            "startIndex": 6382,
-                            "endIndex": 6420,
+                            "startIndex": 6380,
+                            "endIndex": 6418,
                             "textRun": {
                               "content": "// Remove element from the mutable set",
                               "textStyle": {
@@ -8501,8 +8573,8 @@
                             }
                           },
                           {
-                            "startIndex": 6420,
-                            "endIndex": 6433,
+                            "startIndex": 6418,
+                            "endIndex": 6431,
                             "textRun": {
                               "content": "\u000b    println(",
                               "textStyle": {
@@ -8532,8 +8604,8 @@
                             }
                           },
                           {
-                            "startIndex": 6433,
-                            "endIndex": 6479,
+                            "startIndex": 6431,
+                            "endIndex": 6477,
                             "textRun": {
                               "content": "\"Modified Mutable Set after removing element:\"",
                               "textStyle": {
@@ -8563,8 +8635,8 @@
                             }
                           },
                           {
-                            "startIndex": 6479,
-                            "endIndex": 6485,
+                            "startIndex": 6477,
+                            "endIndex": 6483,
                             "textRun": {
                               "content": ")\u000b    ",
                               "textStyle": {
@@ -8594,8 +8666,8 @@
                             }
                           },
                           {
-                            "startIndex": 6485,
-                            "endIndex": 6488,
+                            "startIndex": 6483,
+                            "endIndex": 6486,
                             "textRun": {
                               "content": "for",
                               "textStyle": {
@@ -8625,8 +8697,8 @@
                             }
                           },
                           {
-                            "startIndex": 6488,
-                            "endIndex": 6498,
+                            "startIndex": 6486,
+                            "endIndex": 6496,
                             "textRun": {
                               "content": " (element ",
                               "textStyle": {
@@ -8656,8 +8728,8 @@
                             }
                           },
                           {
-                            "startIndex": 6498,
-                            "endIndex": 6500,
+                            "startIndex": 6496,
+                            "endIndex": 6498,
                             "textRun": {
                               "content": "in",
                               "textStyle": {
@@ -8687,8 +8759,8 @@
                             }
                           },
                           {
-                            "startIndex": 6500,
-                            "endIndex": 6569,
+                            "startIndex": 6498,
+                            "endIndex": 6567,
                             "textRun": {
                               "content": " mutableSet) {\u000b        println(element)\u000b    }\u000b\u000b    mutableMap.remove(",
                               "textStyle": {
@@ -8718,8 +8790,8 @@
                             }
                           },
                           {
-                            "startIndex": 6569,
-                            "endIndex": 6570,
+                            "startIndex": 6567,
+                            "endIndex": 6568,
                             "textRun": {
                               "content": "3",
                               "textStyle": {
@@ -8749,8 +8821,8 @@
                             }
                           },
                           {
-                            "startIndex": 6570,
-                            "endIndex": 6573,
+                            "startIndex": 6568,
+                            "endIndex": 6571,
                             "textRun": {
                               "content": ")  ",
                               "textStyle": {
@@ -8780,8 +8852,8 @@
                             }
                           },
                           {
-                            "startIndex": 6573,
-                            "endIndex": 6609,
+                            "startIndex": 6571,
+                            "endIndex": 6607,
                             "textRun": {
                               "content": "// Remove entry from the mutable map",
                               "textStyle": {
@@ -8811,8 +8883,8 @@
                             }
                           },
                           {
-                            "startIndex": 6609,
-                            "endIndex": 6622,
+                            "startIndex": 6607,
+                            "endIndex": 6620,
                             "textRun": {
                               "content": "\u000b    println(",
                               "textStyle": {
@@ -8842,8 +8914,8 @@
                             }
                           },
                           {
-                            "startIndex": 6622,
-                            "endIndex": 6666,
+                            "startIndex": 6620,
+                            "endIndex": 6664,
                             "textRun": {
                               "content": "\"Modified Mutable Map after removing entry:\"",
                               "textStyle": {
@@ -8873,8 +8945,8 @@
                             }
                           },
                           {
-                            "startIndex": 6666,
-                            "endIndex": 6672,
+                            "startIndex": 6664,
+                            "endIndex": 6670,
                             "textRun": {
                               "content": ")\u000b    ",
                               "textStyle": {
@@ -8904,8 +8976,8 @@
                             }
                           },
                           {
-                            "startIndex": 6672,
-                            "endIndex": 6675,
+                            "startIndex": 6670,
+                            "endIndex": 6673,
                             "textRun": {
                               "content": "for",
                               "textStyle": {
@@ -8935,8 +9007,8 @@
                             }
                           },
                           {
-                            "startIndex": 6675,
-                            "endIndex": 6690,
+                            "startIndex": 6673,
+                            "endIndex": 6688,
                             "textRun": {
                               "content": " ((key, value) ",
                               "textStyle": {
@@ -8966,8 +9038,8 @@
                             }
                           },
                           {
-                            "startIndex": 6690,
-                            "endIndex": 6692,
+                            "startIndex": 6688,
+                            "endIndex": 6690,
                             "textRun": {
                               "content": "in",
                               "textStyle": {
@@ -8997,8 +9069,8 @@
                             }
                           },
                           {
-                            "startIndex": 6692,
-                            "endIndex": 6723,
+                            "startIndex": 6690,
+                            "endIndex": 6721,
                             "textRun": {
                               "content": " mutableMap) {\u000b        println(",
                               "textStyle": {
@@ -9028,8 +9100,8 @@
                             }
                           },
                           {
-                            "startIndex": 6723,
-                            "endIndex": 6729,
+                            "startIndex": 6721,
+                            "endIndex": 6727,
                             "textRun": {
                               "content": "\"Key: ",
                               "textStyle": {
@@ -9059,8 +9131,8 @@
                             }
                           },
                           {
-                            "startIndex": 6729,
-                            "endIndex": 6733,
+                            "startIndex": 6727,
+                            "endIndex": 6731,
                             "textRun": {
                               "content": "$key",
                               "textStyle": {
@@ -9090,8 +9162,8 @@
                             }
                           },
                           {
-                            "startIndex": 6733,
-                            "endIndex": 6742,
+                            "startIndex": 6731,
+                            "endIndex": 6740,
                             "textRun": {
                               "content": ", Value: ",
                               "textStyle": {
@@ -9121,8 +9193,8 @@
                             }
                           },
                           {
-                            "startIndex": 6742,
-                            "endIndex": 6748,
+                            "startIndex": 6740,
+                            "endIndex": 6746,
                             "textRun": {
                               "content": "$value",
                               "textStyle": {
@@ -9152,8 +9224,8 @@
                             }
                           },
                           {
-                            "startIndex": 6748,
-                            "endIndex": 6749,
+                            "startIndex": 6746,
+                            "endIndex": 6747,
                             "textRun": {
                               "content": "\"",
                               "textStyle": {
@@ -9183,8 +9255,8 @@
                             }
                           },
                           {
-                            "startIndex": 6749,
-                            "endIndex": 6758,
+                            "startIndex": 6747,
+                            "endIndex": 6756,
                             "textRun": {
                               "content": ")\u000b    }\u000b}",
                               "textStyle": {
@@ -9214,8 +9286,8 @@
                             }
                           },
                           {
-                            "startIndex": 6758,
-                            "endIndex": 6759,
+                            "startIndex": 6756,
+                            "endIndex": 6757,
                             "textRun": {
                               "content": "\n",
                               "textStyle": {}
@@ -9262,17 +9334,17 @@
                   }
                 },
                 {
-                  "startIndex": 6759,
-                  "endIndex": 7232,
+                  "startIndex": 6757,
+                  "endIndex": 7230,
                   "content": [
                     {
-                      "startIndex": 6760,
-                      "endIndex": 6767,
+                      "startIndex": 6758,
+                      "endIndex": 6765,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6760,
-                            "endIndex": 6767,
+                            "startIndex": 6758,
+                            "endIndex": 6765,
                             "textRun": {
                               "content": "Output\n",
                               "textStyle": {
@@ -9310,13 +9382,13 @@
                       }
                     },
                     {
-                      "startIndex": 6767,
-                      "endIndex": 6768,
+                      "startIndex": 6765,
+                      "endIndex": 6766,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6767,
-                            "endIndex": 6768,
+                            "startIndex": 6765,
+                            "endIndex": 6766,
                             "textRun": {
                               "content": "\n",
                               "textStyle": {
@@ -9354,15 +9426,59 @@
                       }
                     },
                     {
-                      "startIndex": 6768,
+                      "startIndex": 6766,
+                      "endIndex": 6782,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 6766,
+                            "endIndex": 6782,
+                            "textRun": {
+                              "content": "Immutable List:\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.2,
+                                      "green": 0.2,
+                                      "blue": 0.2
+                                    }
+                                  }
+                                },
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.9882353,
+                                      "green": 0.7607843,
+                                      "blue": 0.54901963
+                                    }
+                                  }
+                                },
+                                "weightedFontFamily": {
+                                  "fontFamily": "Consolas",
+                                  "weight": 400
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "direction": "LEFT_TO_RIGHT",
+                          "avoidWidowAndOrphan": false
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 6782,
                       "endIndex": 6784,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6768,
+                            "startIndex": 6782,
                             "endIndex": 6784,
                             "textRun": {
-                              "content": "Immutable List:\n",
+                              "content": "1\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -9406,7 +9522,7 @@
                             "startIndex": 6784,
                             "endIndex": 6786,
                             "textRun": {
-                              "content": "1\n",
+                              "content": "2\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -9450,50 +9566,6 @@
                             "startIndex": 6786,
                             "endIndex": 6788,
                             "textRun": {
-                              "content": "2\n",
-                              "textStyle": {
-                                "backgroundColor": {
-                                  "color": {
-                                    "rgbColor": {
-                                      "red": 0.2,
-                                      "green": 0.2,
-                                      "blue": 0.2
-                                    }
-                                  }
-                                },
-                                "foregroundColor": {
-                                  "color": {
-                                    "rgbColor": {
-                                      "red": 0.9882353,
-                                      "green": 0.7607843,
-                                      "blue": 0.54901963
-                                    }
-                                  }
-                                },
-                                "weightedFontFamily": {
-                                  "fontFamily": "Consolas",
-                                  "weight": 400
-                                }
-                              }
-                            }
-                          }
-                        ],
-                        "paragraphStyle": {
-                          "namedStyleType": "NORMAL_TEXT",
-                          "direction": "LEFT_TO_RIGHT",
-                          "avoidWidowAndOrphan": false
-                        }
-                      }
-                    },
-                    {
-                      "startIndex": 6788,
-                      "endIndex": 6790,
-                      "paragraph": {
-                        "elements": [
-                          {
-                            "startIndex": 6788,
-                            "endIndex": 6790,
-                            "textRun": {
                               "content": "3\n",
                               "textStyle": {
                                 "backgroundColor": {
@@ -9530,15 +9602,59 @@
                       }
                     },
                     {
-                      "startIndex": 6790,
+                      "startIndex": 6788,
+                      "endIndex": 6803,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 6788,
+                            "endIndex": 6803,
+                            "textRun": {
+                              "content": "Immutable Set:\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.2,
+                                      "green": 0.2,
+                                      "blue": 0.2
+                                    }
+                                  }
+                                },
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.9882353,
+                                      "green": 0.7607843,
+                                      "blue": 0.54901963
+                                    }
+                                  }
+                                },
+                                "weightedFontFamily": {
+                                  "fontFamily": "Consolas",
+                                  "weight": 400
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "direction": "LEFT_TO_RIGHT",
+                          "avoidWidowAndOrphan": false
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 6803,
                       "endIndex": 6805,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6790,
+                            "startIndex": 6803,
                             "endIndex": 6805,
                             "textRun": {
-                              "content": "Immutable Set:\n",
+                              "content": "a\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -9582,7 +9698,7 @@
                             "startIndex": 6805,
                             "endIndex": 6807,
                             "textRun": {
-                              "content": "a\n",
+                              "content": "b\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -9626,50 +9742,6 @@
                             "startIndex": 6807,
                             "endIndex": 6809,
                             "textRun": {
-                              "content": "b\n",
-                              "textStyle": {
-                                "backgroundColor": {
-                                  "color": {
-                                    "rgbColor": {
-                                      "red": 0.2,
-                                      "green": 0.2,
-                                      "blue": 0.2
-                                    }
-                                  }
-                                },
-                                "foregroundColor": {
-                                  "color": {
-                                    "rgbColor": {
-                                      "red": 0.9882353,
-                                      "green": 0.7607843,
-                                      "blue": 0.54901963
-                                    }
-                                  }
-                                },
-                                "weightedFontFamily": {
-                                  "fontFamily": "Consolas",
-                                  "weight": 400
-                                }
-                              }
-                            }
-                          }
-                        ],
-                        "paragraphStyle": {
-                          "namedStyleType": "NORMAL_TEXT",
-                          "direction": "LEFT_TO_RIGHT",
-                          "avoidWidowAndOrphan": false
-                        }
-                      }
-                    },
-                    {
-                      "startIndex": 6809,
-                      "endIndex": 6811,
-                      "paragraph": {
-                        "elements": [
-                          {
-                            "startIndex": 6809,
-                            "endIndex": 6811,
-                            "textRun": {
                               "content": "c\n",
                               "textStyle": {
                                 "backgroundColor": {
@@ -9706,13 +9778,13 @@
                       }
                     },
                     {
-                      "startIndex": 6811,
-                      "endIndex": 6826,
+                      "startIndex": 6809,
+                      "endIndex": 6824,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6811,
-                            "endIndex": 6826,
+                            "startIndex": 6809,
+                            "endIndex": 6824,
                             "textRun": {
                               "content": "Immutable Map:\n",
                               "textStyle": {
@@ -9750,13 +9822,13 @@
                       }
                     },
                     {
-                      "startIndex": 6826,
-                      "endIndex": 6845,
+                      "startIndex": 6824,
+                      "endIndex": 6843,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6826,
-                            "endIndex": 6845,
+                            "startIndex": 6824,
+                            "endIndex": 6843,
                             "textRun": {
                               "content": "Key: 1, Value: one\n",
                               "textStyle": {
@@ -9794,13 +9866,13 @@
                       }
                     },
                     {
-                      "startIndex": 6845,
-                      "endIndex": 6864,
+                      "startIndex": 6843,
+                      "endIndex": 6862,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6845,
-                            "endIndex": 6864,
+                            "startIndex": 6843,
+                            "endIndex": 6862,
                             "textRun": {
                               "content": "Key: 2, Value: two\n",
                               "textStyle": {
@@ -9838,13 +9910,13 @@
                       }
                     },
                     {
-                      "startIndex": 6864,
-                      "endIndex": 6885,
+                      "startIndex": 6862,
+                      "endIndex": 6883,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6864,
-                            "endIndex": 6885,
+                            "startIndex": 6862,
+                            "endIndex": 6883,
                             "textRun": {
                               "content": "Key: 3, Value: three\n",
                               "textStyle": {
@@ -9882,15 +9954,59 @@
                       }
                     },
                     {
-                      "startIndex": 6885,
+                      "startIndex": 6883,
+                      "endIndex": 6897,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 6883,
+                            "endIndex": 6897,
+                            "textRun": {
+                              "content": "Mutable List:\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.2,
+                                      "green": 0.2,
+                                      "blue": 0.2
+                                    }
+                                  }
+                                },
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.9882353,
+                                      "green": 0.7607843,
+                                      "blue": 0.54901963
+                                    }
+                                  }
+                                },
+                                "weightedFontFamily": {
+                                  "fontFamily": "Consolas",
+                                  "weight": 400
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "direction": "LEFT_TO_RIGHT",
+                          "avoidWidowAndOrphan": false
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 6897,
                       "endIndex": 6899,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6885,
+                            "startIndex": 6897,
                             "endIndex": 6899,
                             "textRun": {
-                              "content": "Mutable List:\n",
+                              "content": "1\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -9934,7 +10050,7 @@
                             "startIndex": 6899,
                             "endIndex": 6901,
                             "textRun": {
-                              "content": "1\n",
+                              "content": "2\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -9978,50 +10094,6 @@
                             "startIndex": 6901,
                             "endIndex": 6903,
                             "textRun": {
-                              "content": "2\n",
-                              "textStyle": {
-                                "backgroundColor": {
-                                  "color": {
-                                    "rgbColor": {
-                                      "red": 0.2,
-                                      "green": 0.2,
-                                      "blue": 0.2
-                                    }
-                                  }
-                                },
-                                "foregroundColor": {
-                                  "color": {
-                                    "rgbColor": {
-                                      "red": 0.9882353,
-                                      "green": 0.7607843,
-                                      "blue": 0.54901963
-                                    }
-                                  }
-                                },
-                                "weightedFontFamily": {
-                                  "fontFamily": "Consolas",
-                                  "weight": 400
-                                }
-                              }
-                            }
-                          }
-                        ],
-                        "paragraphStyle": {
-                          "namedStyleType": "NORMAL_TEXT",
-                          "direction": "LEFT_TO_RIGHT",
-                          "avoidWidowAndOrphan": false
-                        }
-                      }
-                    },
-                    {
-                      "startIndex": 6903,
-                      "endIndex": 6905,
-                      "paragraph": {
-                        "elements": [
-                          {
-                            "startIndex": 6903,
-                            "endIndex": 6905,
-                            "textRun": {
                               "content": "3\n",
                               "textStyle": {
                                 "backgroundColor": {
@@ -10058,15 +10130,59 @@
                       }
                     },
                     {
-                      "startIndex": 6905,
+                      "startIndex": 6903,
+                      "endIndex": 6916,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 6903,
+                            "endIndex": 6916,
+                            "textRun": {
+                              "content": "Mutable Set:\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.2,
+                                      "green": 0.2,
+                                      "blue": 0.2
+                                    }
+                                  }
+                                },
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.9882353,
+                                      "green": 0.7607843,
+                                      "blue": 0.54901963
+                                    }
+                                  }
+                                },
+                                "weightedFontFamily": {
+                                  "fontFamily": "Consolas",
+                                  "weight": 400
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "direction": "LEFT_TO_RIGHT",
+                          "avoidWidowAndOrphan": false
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 6916,
                       "endIndex": 6918,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6905,
+                            "startIndex": 6916,
                             "endIndex": 6918,
                             "textRun": {
-                              "content": "Mutable Set:\n",
+                              "content": "a\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -10110,7 +10226,7 @@
                             "startIndex": 6918,
                             "endIndex": 6920,
                             "textRun": {
-                              "content": "a\n",
+                              "content": "b\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -10154,50 +10270,6 @@
                             "startIndex": 6920,
                             "endIndex": 6922,
                             "textRun": {
-                              "content": "b\n",
-                              "textStyle": {
-                                "backgroundColor": {
-                                  "color": {
-                                    "rgbColor": {
-                                      "red": 0.2,
-                                      "green": 0.2,
-                                      "blue": 0.2
-                                    }
-                                  }
-                                },
-                                "foregroundColor": {
-                                  "color": {
-                                    "rgbColor": {
-                                      "red": 0.9882353,
-                                      "green": 0.7607843,
-                                      "blue": 0.54901963
-                                    }
-                                  }
-                                },
-                                "weightedFontFamily": {
-                                  "fontFamily": "Consolas",
-                                  "weight": 400
-                                }
-                              }
-                            }
-                          }
-                        ],
-                        "paragraphStyle": {
-                          "namedStyleType": "NORMAL_TEXT",
-                          "direction": "LEFT_TO_RIGHT",
-                          "avoidWidowAndOrphan": false
-                        }
-                      }
-                    },
-                    {
-                      "startIndex": 6922,
-                      "endIndex": 6924,
-                      "paragraph": {
-                        "elements": [
-                          {
-                            "startIndex": 6922,
-                            "endIndex": 6924,
-                            "textRun": {
                               "content": "c\n",
                               "textStyle": {
                                 "backgroundColor": {
@@ -10234,13 +10306,13 @@
                       }
                     },
                     {
-                      "startIndex": 6924,
-                      "endIndex": 6937,
+                      "startIndex": 6922,
+                      "endIndex": 6935,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6924,
-                            "endIndex": 6937,
+                            "startIndex": 6922,
+                            "endIndex": 6935,
                             "textRun": {
                               "content": "Mutable Map:\n",
                               "textStyle": {
@@ -10278,13 +10350,13 @@
                       }
                     },
                     {
-                      "startIndex": 6937,
-                      "endIndex": 6956,
+                      "startIndex": 6935,
+                      "endIndex": 6954,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6937,
-                            "endIndex": 6956,
+                            "startIndex": 6935,
+                            "endIndex": 6954,
                             "textRun": {
                               "content": "Key: 1, Value: one\n",
                               "textStyle": {
@@ -10322,13 +10394,13 @@
                       }
                     },
                     {
-                      "startIndex": 6956,
-                      "endIndex": 6975,
+                      "startIndex": 6954,
+                      "endIndex": 6973,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6956,
-                            "endIndex": 6975,
+                            "startIndex": 6954,
+                            "endIndex": 6973,
                             "textRun": {
                               "content": "Key: 2, Value: two\n",
                               "textStyle": {
@@ -10366,13 +10438,13 @@
                       }
                     },
                     {
-                      "startIndex": 6975,
-                      "endIndex": 6996,
+                      "startIndex": 6973,
+                      "endIndex": 6994,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6975,
-                            "endIndex": 6996,
+                            "startIndex": 6973,
+                            "endIndex": 6994,
                             "textRun": {
                               "content": "Key: 3, Value: three\n",
                               "textStyle": {
@@ -10410,15 +10482,59 @@
                       }
                     },
                     {
-                      "startIndex": 6996,
+                      "startIndex": 6994,
+                      "endIndex": 7017,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 6994,
+                            "endIndex": 7017,
+                            "textRun": {
+                              "content": "Modified Mutable List:\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.2,
+                                      "green": 0.2,
+                                      "blue": 0.2
+                                    }
+                                  }
+                                },
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.9882353,
+                                      "green": 0.7607843,
+                                      "blue": 0.54901963
+                                    }
+                                  }
+                                },
+                                "weightedFontFamily": {
+                                  "fontFamily": "Consolas",
+                                  "weight": 400
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "direction": "LEFT_TO_RIGHT",
+                          "avoidWidowAndOrphan": false
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 7017,
                       "endIndex": 7019,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 6996,
+                            "startIndex": 7017,
                             "endIndex": 7019,
                             "textRun": {
-                              "content": "Modified Mutable List:\n",
+                              "content": "1\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -10462,7 +10578,7 @@
                             "startIndex": 7019,
                             "endIndex": 7021,
                             "textRun": {
-                              "content": "1\n",
+                              "content": "2\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -10506,7 +10622,7 @@
                             "startIndex": 7021,
                             "endIndex": 7023,
                             "textRun": {
-                              "content": "2\n",
+                              "content": "3\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -10550,50 +10666,6 @@
                             "startIndex": 7023,
                             "endIndex": 7025,
                             "textRun": {
-                              "content": "3\n",
-                              "textStyle": {
-                                "backgroundColor": {
-                                  "color": {
-                                    "rgbColor": {
-                                      "red": 0.2,
-                                      "green": 0.2,
-                                      "blue": 0.2
-                                    }
-                                  }
-                                },
-                                "foregroundColor": {
-                                  "color": {
-                                    "rgbColor": {
-                                      "red": 0.9882353,
-                                      "green": 0.7607843,
-                                      "blue": 0.54901963
-                                    }
-                                  }
-                                },
-                                "weightedFontFamily": {
-                                  "fontFamily": "Consolas",
-                                  "weight": 400
-                                }
-                              }
-                            }
-                          }
-                        ],
-                        "paragraphStyle": {
-                          "namedStyleType": "NORMAL_TEXT",
-                          "direction": "LEFT_TO_RIGHT",
-                          "avoidWidowAndOrphan": false
-                        }
-                      }
-                    },
-                    {
-                      "startIndex": 7025,
-                      "endIndex": 7027,
-                      "paragraph": {
-                        "elements": [
-                          {
-                            "startIndex": 7025,
-                            "endIndex": 7027,
-                            "textRun": {
                               "content": "4\n",
                               "textStyle": {
                                 "backgroundColor": {
@@ -10630,15 +10702,59 @@
                       }
                     },
                     {
-                      "startIndex": 7027,
+                      "startIndex": 7025,
+                      "endIndex": 7071,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 7025,
+                            "endIndex": 7071,
+                            "textRun": {
+                              "content": "Modified Mutable List after removing element:\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.2,
+                                      "green": 0.2,
+                                      "blue": 0.2
+                                    }
+                                  }
+                                },
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.9882353,
+                                      "green": 0.7607843,
+                                      "blue": 0.54901963
+                                    }
+                                  }
+                                },
+                                "weightedFontFamily": {
+                                  "fontFamily": "Consolas",
+                                  "weight": 400
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "direction": "LEFT_TO_RIGHT",
+                          "avoidWidowAndOrphan": false
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 7071,
                       "endIndex": 7073,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 7027,
+                            "startIndex": 7071,
                             "endIndex": 7073,
                             "textRun": {
-                              "content": "Modified Mutable List after removing element:\n",
+                              "content": "1\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -10682,7 +10798,7 @@
                             "startIndex": 7073,
                             "endIndex": 7075,
                             "textRun": {
-                              "content": "1\n",
+                              "content": "3\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -10726,50 +10842,6 @@
                             "startIndex": 7075,
                             "endIndex": 7077,
                             "textRun": {
-                              "content": "3\n",
-                              "textStyle": {
-                                "backgroundColor": {
-                                  "color": {
-                                    "rgbColor": {
-                                      "red": 0.2,
-                                      "green": 0.2,
-                                      "blue": 0.2
-                                    }
-                                  }
-                                },
-                                "foregroundColor": {
-                                  "color": {
-                                    "rgbColor": {
-                                      "red": 0.9882353,
-                                      "green": 0.7607843,
-                                      "blue": 0.54901963
-                                    }
-                                  }
-                                },
-                                "weightedFontFamily": {
-                                  "fontFamily": "Consolas",
-                                  "weight": 400
-                                }
-                              }
-                            }
-                          }
-                        ],
-                        "paragraphStyle": {
-                          "namedStyleType": "NORMAL_TEXT",
-                          "direction": "LEFT_TO_RIGHT",
-                          "avoidWidowAndOrphan": false
-                        }
-                      }
-                    },
-                    {
-                      "startIndex": 7077,
-                      "endIndex": 7079,
-                      "paragraph": {
-                        "elements": [
-                          {
-                            "startIndex": 7077,
-                            "endIndex": 7079,
-                            "textRun": {
                               "content": "4\n",
                               "textStyle": {
                                 "backgroundColor": {
@@ -10806,15 +10878,59 @@
                       }
                     },
                     {
-                      "startIndex": 7079,
+                      "startIndex": 7077,
+                      "endIndex": 7122,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 7077,
+                            "endIndex": 7122,
+                            "textRun": {
+                              "content": "Modified Mutable Set after removing element:\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.2,
+                                      "green": 0.2,
+                                      "blue": 0.2
+                                    }
+                                  }
+                                },
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.9882353,
+                                      "green": 0.7607843,
+                                      "blue": 0.54901963
+                                    }
+                                  }
+                                },
+                                "weightedFontFamily": {
+                                  "fontFamily": "Consolas",
+                                  "weight": 400
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "direction": "LEFT_TO_RIGHT",
+                          "avoidWidowAndOrphan": false
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 7122,
                       "endIndex": 7124,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 7079,
+                            "startIndex": 7122,
                             "endIndex": 7124,
                             "textRun": {
-                              "content": "Modified Mutable Set after removing element:\n",
+                              "content": "a\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -10858,7 +10974,7 @@
                             "startIndex": 7124,
                             "endIndex": 7126,
                             "textRun": {
-                              "content": "a\n",
+                              "content": "c\n",
                               "textStyle": {
                                 "backgroundColor": {
                                   "color": {
@@ -10902,50 +11018,6 @@
                             "startIndex": 7126,
                             "endIndex": 7128,
                             "textRun": {
-                              "content": "c\n",
-                              "textStyle": {
-                                "backgroundColor": {
-                                  "color": {
-                                    "rgbColor": {
-                                      "red": 0.2,
-                                      "green": 0.2,
-                                      "blue": 0.2
-                                    }
-                                  }
-                                },
-                                "foregroundColor": {
-                                  "color": {
-                                    "rgbColor": {
-                                      "red": 0.9882353,
-                                      "green": 0.7607843,
-                                      "blue": 0.54901963
-                                    }
-                                  }
-                                },
-                                "weightedFontFamily": {
-                                  "fontFamily": "Consolas",
-                                  "weight": 400
-                                }
-                              }
-                            }
-                          }
-                        ],
-                        "paragraphStyle": {
-                          "namedStyleType": "NORMAL_TEXT",
-                          "direction": "LEFT_TO_RIGHT",
-                          "avoidWidowAndOrphan": false
-                        }
-                      }
-                    },
-                    {
-                      "startIndex": 7128,
-                      "endIndex": 7130,
-                      "paragraph": {
-                        "elements": [
-                          {
-                            "startIndex": 7128,
-                            "endIndex": 7130,
-                            "textRun": {
                               "content": "d\n",
                               "textStyle": {
                                 "backgroundColor": {
@@ -10982,13 +11054,13 @@
                       }
                     },
                     {
-                      "startIndex": 7130,
-                      "endIndex": 7173,
+                      "startIndex": 7128,
+                      "endIndex": 7171,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 7130,
-                            "endIndex": 7173,
+                            "startIndex": 7128,
+                            "endIndex": 7171,
                             "textRun": {
                               "content": "Modified Mutable Map after removing entry:\n",
                               "textStyle": {
@@ -11026,13 +11098,13 @@
                       }
                     },
                     {
-                      "startIndex": 7173,
-                      "endIndex": 7192,
+                      "startIndex": 7171,
+                      "endIndex": 7190,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 7173,
-                            "endIndex": 7192,
+                            "startIndex": 7171,
+                            "endIndex": 7190,
                             "textRun": {
                               "content": "Key: 1, Value: one\n",
                               "textStyle": {
@@ -11070,13 +11142,13 @@
                       }
                     },
                     {
-                      "startIndex": 7192,
-                      "endIndex": 7211,
+                      "startIndex": 7190,
+                      "endIndex": 7209,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 7192,
-                            "endIndex": 7211,
+                            "startIndex": 7190,
+                            "endIndex": 7209,
                             "textRun": {
                               "content": "Key: 2, Value: two\n",
                               "textStyle": {
@@ -11114,13 +11186,13 @@
                       }
                     },
                     {
-                      "startIndex": 7211,
-                      "endIndex": 7231,
+                      "startIndex": 7209,
+                      "endIndex": 7229,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 7211,
-                            "endIndex": 7231,
+                            "startIndex": 7209,
+                            "endIndex": 7229,
                             "textRun": {
                               "content": "Key: 4, Value: four\n",
                               "textStyle": {
@@ -11158,13 +11230,13 @@
                       }
                     },
                     {
-                      "startIndex": 7231,
-                      "endIndex": 7232,
+                      "startIndex": 7229,
+                      "endIndex": 7230,
                       "paragraph": {
                         "elements": [
                           {
-                            "startIndex": 7231,
-                            "endIndex": 7232,
+                            "startIndex": 7229,
+                            "endIndex": 7230,
                             "textRun": {
                               "content": "\n",
                               "textStyle": {
@@ -11262,13 +11334,13 @@
         }
       },
       {
-        "startIndex": 7233,
-        "endIndex": 7234,
+        "startIndex": 7231,
+        "endIndex": 7232,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7233,
-              "endIndex": 7234,
+              "startIndex": 7231,
+              "endIndex": 7232,
               "textRun": {
                 "content": "\n",
                 "textStyle": {
@@ -11303,13 +11375,13 @@
         }
       },
       {
-        "startIndex": 7234,
-        "endIndex": 7237,
+        "startIndex": 7232,
+        "endIndex": 7235,
         "paragraph": {
           "elements": [
             {
-              "startIndex": 7234,
-              "endIndex": 7236,
+              "startIndex": 7232,
+              "endIndex": 7234,
               "textRun": {
                 "content": "\t\t",
                 "textStyle": {
@@ -11330,8 +11402,8 @@
               }
             },
             {
-              "startIndex": 7236,
-              "endIndex": 7237,
+              "startIndex": 7234,
+              "endIndex": 7235,
               "textRun": {
                 "content": "\n",
                 "textStyle": {}
@@ -13026,7 +13098,107 @@
       }
     }
   },
-  "revisionId": "ALBJ4Lsb4AnKtYUOX3OUqOwo3COwMC3257TaU1kCkcp5hodPfBuzg_RFYRnFUDSqG7jIHo5Uf664fAGWHrEdZg",
+  "revisionId": "ALBJ4LuEUICSRt0SgcDiIuszsC3VBAF_5MO0r5O-ZYTo6lS9r_bFvlomWrMAzylqeQm762-zp_YX8Lpn8M5oQw",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "inlineObjects": {
+    "kix.ece2lzfq0r0a": {
+      "objectId": "kix.ece2lzfq0r0a",
+      "inlineObjectProperties": {
+        "embeddedObject": {
+          "imageProperties": {
+            "contentUri": "https://lh6.googleusercontent.com/Q2RSebNPbJzGLXU9VbQ3uf80nUxIte7Hx29KolKcteUsaqcYWJUCrFcn2iEIDwfVr6wzETxO_LMd7vqsviKwO9zQ31jUvR1HywIDBcCS6b4WlbfHoiDI4W5BUMZRJnkJV8Z47KYIF3cgoNLj0zi024e70IfSbfW7",
+            "cropProperties": {}
+          },
+          "embeddedObjectBorder": {
+            "color": {
+              "color": {
+                "rgbColor": {}
+              }
+            },
+            "width": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID",
+            "propertyState": "NOT_RENDERED"
+          },
+          "size": {
+            "height": {
+              "magnitude": 145.5,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 194.25,
+              "unit": "PT"
+            }
+          },
+          "marginTop": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 9,
+            "unit": "PT"
+          }
+        }
+      }
+    },
+    "kix.hwo2j2lhfdtn": {
+      "objectId": "kix.hwo2j2lhfdtn",
+      "inlineObjectProperties": {
+        "embeddedObject": {
+          "imageProperties": {
+            "contentUri": "https://lh4.googleusercontent.com/Tm3iv-jk3wYjyjiNHAq1jz8vOixFqoLgE8aaDzPkDEFZQ0r-cVV11cnRP2HG9DWO-6LuEJ1S2YEi7M8rzOBxh8dBDonZGJQp7e2XKcXTpYPST2Ioabvl7Q7oRVo3QTWWnaJ21qA_CdgmF9-rtqoEJB0tseWCP-_Z",
+            "cropProperties": {}
+          },
+          "embeddedObjectBorder": {
+            "color": {
+              "color": {
+                "rgbColor": {}
+              }
+            },
+            "width": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID",
+            "propertyState": "NOT_RENDERED"
+          },
+          "size": {
+            "height": {
+              "magnitude": 351,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 468,
+              "unit": "PT"
+            }
+          },
+          "marginTop": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 9,
+            "unit": "PT"
+          }
+        }
+      }
+    }
+  },
   "documentId": "1VR6GN2zIgR_QKougSCbEVi3K5BOABvl_LCZPs5YXIrw"
 }
