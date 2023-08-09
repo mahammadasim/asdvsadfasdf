@@ -76,9 +76,116 @@
           "elements": [
             {
               "startIndex": 24,
+              "endIndex": 53,
+              "textRun": {
+                "content": "Kotlin is a general purpose, ",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 53,
+              "endIndex": 57,
+              "textRun": {
+                "content": "free",
+                "textStyle": {
+                  "bold": true,
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 57,
+              "endIndex": 162,
+              "textRun": {
+                "content": ", open source, statically typed programming language initially designed for the JVM (Java Virtual Machine",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 162,
+              "endIndex": 167,
+              "textRun": {
+                "content": ") and",
+                "textStyle": {
+                  "italic": true,
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 167,
+              "endIndex": 180,
+              "textRun": {
+                "content": " Android, and",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 180,
+              "endIndex": 190,
+              "textRun": {
+                "content": " combines ",
+                "textStyle": {
+                  "bold": true,
+                  "italic": true,
+                  "underline": true,
+                  "fontSize": {
+                    "magnitude": 12,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Times New Roman",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 190,
               "endIndex": 243,
               "textRun": {
-                "content": "Kotlin is a general purpose, free, open source, statically typed programming language initially designed for the JVM (Java Virtual Machine) and Android, and combines object-oriented and functional programming features.\n",
+                "content": "object-oriented and functional programming features.\n",
                 "textStyle": {
                   "fontSize": {
                     "magnitude": 12,
@@ -12919,7 +13026,7 @@
       }
     }
   },
-  "revisionId": "ALBJ4LsOxJU-LjZV9ShtfyrY4LzGyJRTth4q2BeZIe3oYoxThnV6goWhT_-vCUwWA36f4dZd1WumlS4Ev47ezQ",
+  "revisionId": "ALBJ4Lsb4AnKtYUOX3OUqOwo3COwMC3257TaU1kCkcp5hodPfBuzg_RFYRnFUDSqG7jIHo5Uf664fAGWHrEdZg",
   "suggestionsViewMode": "SUGGESTIONS_INLINE",
   "documentId": "1VR6GN2zIgR_QKougSCbEVi3K5BOABvl_LCZPs5YXIrw"
 }
